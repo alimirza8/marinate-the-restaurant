@@ -9,7 +9,7 @@
 <main>
 		<div id="carousel-home">
 			<div class="owl-carousel owl-theme">
-				<div class="owl-slide cover lazy" data-bg="url(<?php asset_path( 'img/slides/slide_home_1.jpg', true ); ?>)">
+				<div class="owl-slide cover lazy" data-bg="url(<?php asset_path( 'img/slides/taste-unique-foods.png', true ); ?>)">
 					<div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.5)">
 						<div class="container">
 							<div class="row justify-content-center justify-content-md-end">
