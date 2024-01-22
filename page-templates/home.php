@@ -27,7 +27,7 @@
 					</div>
 				</div>
 				<!--/owl-slide-->
-				<div class="owl-slide cover lazy" data-bg="url(<?php asset_path( 'img/slides/slide_home_2.jpg', true ); ?> )">
+				<!-- <div class="owl-slide cover lazy" data-bg="url(<?php asset_path( 'img/slides/slide_home_2.jpg', true ); ?> )">
 					<div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.5)">
 						<div class="container">
 							<div class="row justify-content-center justify-content-md-start">
@@ -43,9 +43,9 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 				<!--/owl-slide-->
-				<div class="owl-slide cover lazy" data-bg="url(<?php asset_path( 'img/slides/slide_home_3.jpg', true ); ?>)">
+				<!-- <div class="owl-slide cover lazy" data-bg="url(<?php asset_path( 'img/slides/slide_home_3.jpg', true ); ?>)">
 					<div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.6)">
 						<div class="container">
 							<div class="row justify-content-center justify-content-md-start">
@@ -60,7 +60,7 @@
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> -->
 					<!--/owl-slide-->
 				</div>
 			</div>
