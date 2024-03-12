@@ -72,12 +72,13 @@
 		<div class="layer"></div><!-- Opacity Mask Menu Mobile -->
 		<div class="container-fluid">
 		<div id="logo">
-			<a href="index.html">
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
 				<img src="<?php asset_path( 'img/marinate-logo.png', true ); ?>" width="120" height="70" alt="" class="logo_normal">
 				<img src="<?php asset_path( 'img/marinate-logo.png', true ); ?>" width="120" height="70" alt="" class="logo_sticky">
 			</a>
 		</div>
-		<ul id="top_menu">
+
+		<!-- <ul id="top_menu">
 			<li><a href="#0" class="search-overlay-menu-btn"></a></li>
 			<li>
 				<div class="dropdown dropdown-cart">
@@ -106,10 +107,9 @@
 				        </div>
 				    </div>
 				</div>
-				<!-- /dropdown-cart-->
 			</li>
-		</ul>
-		<!-- /top_menu -->
+		</ul> -->
+
 		<a href="#0" class="open_close">
 			<i class="icon_menu"></i><span>Menu</span>
 		</a>
@@ -118,9 +118,17 @@
 		        <a href="#0" class="open_close">
 		            <i class="icon_close"></i><span>Menu</span>
 		        </a>
-		        <a href="index.html"><img src="<?php asset_path( 'img/marinate-logo.png', true ); ?>" width="140" height="80" alt=""></a>
+		        <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php asset_path( 'img/marinate-logo.png', true ); ?>" width="140" height="80" alt=""></a>
 		    </div>
-		    <ul>
+        <?php
+        wp_nav_menu(
+          array(
+            'theme_location' => 'menu-1',
+            'menu_id'        => 'primary-menu',
+          )
+        );
+      ?>
+		    <!-- <ul>
 		        <li class="submenu">
 		            <a href="#0" class="show-submenu">Home</a>
 		            <ul>
@@ -173,16 +181,17 @@
 		            </ul>
 		        </li>
 		        <li><a href="reservations.html" class="btn_top">Reservations</a></li>
-		    </ul>
+		    </ul> -->
 		</nav>
 	</div>
 	<!-- Search -->
-	<div class="search-overlay-menu">
+	<!-- <div class="search-overlay-menu">
 	    <span class="search-overlay-close"><span class="closebt"><i class="icon_close"></i></span></span>
 	    <form role="search" id="searchform" method="get">
 	        <input value="" name="q" type="search" placeholder="Search..." />
 	        <button type="submit"><i class="icon_search"></i></button>
 	    </form>
-	</div><!-- End Search -->
+	</div> -->
+  <!-- End Search -->
 	</header>
 	<!-- /header -->

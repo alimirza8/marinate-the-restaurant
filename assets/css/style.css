@@ -549,14 +549,14 @@ header.sticky a.open_close,
 }
 
 /*First level styles */
-.main-menu > ul > li > a {
+.main-menu ul li a {
   color: #fff;
   padding: 5px 8px;
   font-size: 14px;
   font-size: 0.875rem;
   font-weight: 500;
 }
-.main-menu > ul > li:hover > a {
+.main-menu ul li:hover a {
   color: #f80000;
 }
 
