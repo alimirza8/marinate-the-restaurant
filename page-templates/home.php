@@ -138,7 +138,7 @@ get_header();
                             <small>Special Offer</small>
                             <h3>Burgher Menu $18 only</h3>
                             <p>Hamburgher, Chips, Mix Sausages, Beer, Muffin</p>
-                            <a href="reservations.html" class="btn_1">Reserve now</a>
+                            <!-- <a href="reservations.html" class="btn_1">Reserve now</a> -->
                         </div>
                         <figure class="d-none d-lg-block"><img src="<?php asset_path('img/banner.svg', true);?>" alt="" width="200" height="200" class="img-fluid"></figure>
                     </div>
