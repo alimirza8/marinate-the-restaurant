@@ -10,7 +10,7 @@ get_header();
 		<div id="carousel-home">
 			<div class="owl-carousel owl-theme">
         <div class="owl-slide cover lazy" data-bg="url(<?php asset_path('img/slides/landing-page-01.png', true);?>)">
-					<div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.6)">
+					<div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.1)">
 						<div class="container">
 							<div class="row justify-content-center justify-content-md-start">
 								<div class="col-lg-12 static">
@@ -29,7 +29,7 @@ get_header();
 				</div>
 				<!--/owl-slide-->
 				<div class="owl-slide cover lazy" data-bg="url(<?php asset_path('img/slides/landing-page-02.png', true);?>)">
-					<div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.6)">
+					<div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.1)">
 						<div class="container">
 							<div class="row justify-content-center justify-content-md-start">
 								<div class="col-lg-12 static">
@@ -48,7 +48,7 @@ get_header();
 				</div>
 				<!--/owl-slide-->
 				<div class="owl-slide cover lazy" data-bg="url(<?php asset_path('img/slides/landing-page-03.png', true);?>)">
-					<div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.6)">
+					<div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.1)">
 						<div class="container">
 							<div class="row justify-content-center justify-content-md-start">
 								<div class="col-lg-12 static">
@@ -67,7 +67,7 @@ get_header();
 				</div>
         <!--/owl-slide-->
 				<div class="owl-slide cover lazy" data-bg="url(<?php asset_path('img/slides/landing-page-04.png', true);?>)">
-					<div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.6)">
+					<div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.1)">
 						<div class="container">
 							<div class="row justify-content-center justify-content-md-start">
 								<div class="col-lg-12 static">
@@ -285,7 +285,7 @@ get_header();
                 <div class="box_1" data-cue="slideInUp">
                     <h2>Celebrate<span>a Special Event with us!</span></h2>
                     <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-                    <a href="contacts.html" class="btn_1 mt-3">Contact us</a>
+                    <a href="<?php echo esc_url(home_url('/contact/')); ?>" class="btn_1 mt-3">Contact us</a>
                 </div>
             </div>
         </div>
