@@ -44,7 +44,7 @@
         <div class="footer_wp">
           <i class="icon_tag_alt"></i>
           <h3>Reservations</h3>
-          <p><a href="tel:+920533724692">+92 053 3724692</a><br><a href="#0">reservations@marinatetherestaurant.com</a></p>
+          <p><a href="tel:+920533724692">+92 053 3724692</a><br><a href="mailto:themarinaterestaurant@gmail.com">themarinaterestaurant@gmail.com</a></p>
         </div>
       </div>
       <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">

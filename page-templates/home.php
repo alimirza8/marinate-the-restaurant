@@ -9,43 +9,45 @@ get_header();
 <main>
 		<div id="carousel-home">
 			<div class="owl-carousel owl-theme">
-				<div class="owl-slide cover lazy" data-bg="url(<?php asset_path('img/slides/taste-unique-foods.png', true); ?>)">
-					<div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.5)">
-						<div class="container">
-							<div class="row justify-content-center justify-content-md-end">
-								<div class="col-lg-6 static">
-									<div class="slide-text text-end white">
-										<h2 class="owl-slide-animated owl-slide-title">Taste<br>unique food</h2>
-										<p class="owl-slide-animated owl-slide-subtitle">
-											Cooking delicious food since 2005
-										</p>
-										<!-- <div class="owl-slide-animated owl-slide-cta"><a class="btn_1 btn_scroll" href="menu-1.html" role="button">Read more</a></div> -->
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!--/owl-slide-->
-				<!-- <div class="owl-slide cover lazy" data-bg="url(<?php asset_path('img/slides/slide_home_2.jpg', true);?> )">
-					<div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.5)">
+        <div class="owl-slide cover lazy" data-bg="url(<?php asset_path('img/slides/landing-page-01.png', true);?>)">
+					<div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.6)">
 						<div class="container">
 							<div class="row justify-content-center justify-content-md-start">
-								<div class="col-lg-6 static">
-									<div class="slide-text white">
-										<h2 class="owl-slide-animated owl-slide-title">Reserve<br>a Table Now</h2>
+								<div class="col-lg-12 static">
+									<div class="slide-text text-center white">
+										<h2 class="owl-slide-animated owl-slide-title">Taste<br>unique food</h2>
 										<p class="owl-slide-animated owl-slide-subtitle">
-											Cooking delicious food since 2005
+											Cooking delicious food since 2014
 										</p>
-										<div class="owl-slide-animated owl-slide-cta"><a class="btn_1" href="reservations.html" role="button">Read more</a></div>
+										<!-- <div class="owl-slide-animated owl-slide-cta"><a class="btn_1" href="menu-1.html" role="button">Read more</a></div> -->
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div> -->
+					<!--/owl-slide-->
+				</div>
 				<!--/owl-slide-->
-				<!-- <div class="owl-slide cover lazy" data-bg="url(<?php asset_path('img/slides/slide_home_3.jpg', true);?>)">
+				<div class="owl-slide cover lazy" data-bg="url(<?php asset_path('img/slides/landing-page-02.png', true);?>)">
+					<div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.6)">
+						<div class="container">
+							<div class="row justify-content-center justify-content-md-start">
+								<div class="col-lg-12 static">
+									<div class="slide-text text-center white">
+										<h2 class="owl-slide-animated owl-slide-title">Enjoy<br>a Party</h2>
+										<p class="owl-slide-animated owl-slide-subtitle">
+											Serving quality food since 2014
+										</p>
+										<!-- <div class="owl-slide-animated owl-slide-cta"><a class="btn_1" href="menu-1.html" role="button">Read more</a></div> -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--/owl-slide-->
+				</div>
+				<!--/owl-slide-->
+				<div class="owl-slide cover lazy" data-bg="url(<?php asset_path('img/slides/landing-page-03.png', true);?>)">
 					<div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.6)">
 						<div class="container">
 							<div class="row justify-content-center justify-content-md-start">
@@ -53,14 +55,33 @@ get_header();
 									<div class="slide-text text-center white">
 										<h2 class="owl-slide-animated owl-slide-title">Enjoy<br>a friends dinner</h2>
 										<p class="owl-slide-animated owl-slide-subtitle">
-											Cooking delicious food since 2005
+											Cooking delicious food since 2014
 										</p>
-										<div class="owl-slide-animated owl-slide-cta"><a class="btn_1" href="menu-1.html" role="button">Read more</a></div>
+										<!-- <div class="owl-slide-animated owl-slide-cta"><a class="btn_1" href="menu-1.html" role="button">Read more</a></div> -->
 									</div>
 								</div>
 							</div>
 						</div>
-					</div> -->
+					</div>
+					<!--/owl-slide-->
+				</div>
+        <!--/owl-slide-->
+				<div class="owl-slide cover lazy" data-bg="url(<?php asset_path('img/slides/landing-page-04.png', true);?>)">
+					<div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.6)">
+						<div class="container">
+							<div class="row justify-content-center justify-content-md-start">
+								<div class="col-lg-12 static">
+									<div class="slide-text text-center white">
+										<h2 class="owl-slide-animated owl-slide-title">Enjoy<br>a friends dinner</h2>
+										<p class="owl-slide-animated owl-slide-subtitle">
+											Cooking delicious food since 2014
+										</p>
+										<!-- <div class="owl-slide-animated owl-slide-cta"><a class="btn_1" href="menu-1.html" role="button">Read more</a></div> -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 					<!--/owl-slide-->
 				</div>
 			</div>
@@ -70,7 +91,7 @@ get_header();
 
 		<ul id="banners_grid" class="clearfix">
 			<li>
-				<a href="menu-1.html" class="img_container">
+				<a href="#" class="img_container">
 					<img src="<?php asset_path('img/banners_cat_placeholder.jpg', true);?>" data-src="<?php asset_path('img/banner_1.jpg', true);?>" alt="" class="lazy">
 					<div class="short_info opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.5)">
 						<h3>Our Menu</h3>
@@ -79,7 +100,7 @@ get_header();
 				</a>
 			</li>
 			<li>
-				<a href="order-food.html" class="img_container">
+				<a href="#" class="img_container">
 					<img src="<?php asset_path('img/banners_cat_placeholder.jpg', true);?>" data-src="<?php asset_path('img/banner_2.jpg', true);?>" alt="" class="lazy">
 					<div class="short_info opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.5)">
 						<h3>Delivery</h3>
@@ -87,15 +108,15 @@ get_header();
 					</div>
 				</a>
 			</li>
-			<li>
-				<a href="gallery.html" class="img_container">
+			<!-- <li>
+				<a href="#" class="img_container">
 					<img src="<?php asset_path('img/banners_cat_placeholder.jpg', true);?>" data-src="<?php asset_path('img/banner_3.jpg', true);?>" alt="" class="lazy">
 					<div class="short_info opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.5)">
 						<h3>Inside Foores</h3>
 						<p>View the Gallery</p>
 					</div>
 				</a>
-			</li>
+			</li> -->
 		</ul>
 		<!--/banners_grid -->
 
@@ -104,8 +125,7 @@ get_header();
 		        <div class="row justify-content-center d-flex align-items-center">
               <div class="col-lg-5 text-lg-center d-none d-lg-block" data-cue="slideInUp">
                   <figure>
-                      <img src="<?php asset_path('img/home_1_placeholder.png', true);?>" data-src="<?php asset_path('img/home_1.jpg', true);?>" width="354" height="440" alt="" class="img-fluid lazy">
-                      <a href="https://www.youtube.com/watch?v=MO7Hi_kBBBg" class="btn_play" data-cue="zoomIn" data-delay="500"><span class="pulse_bt"><i class="arrow_triangle-right"></i></span></a>
+                      <img src="<?php asset_path('img/home_1.jpg', true);?>" data-src="<?php asset_path('img/home_1.jpg', true);?>" width="354" height="440" alt="" class="img-fluid lazy">
                   </figure>
               </div>
               <div class="col-lg-5 pt-lg-4" data-cue="slideInUp" data-delay="500">

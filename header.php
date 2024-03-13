@@ -11,59 +11,21 @@
 
 ?>
 <!doctype html>
-<html <?php language_attributes(); ?>>
+<html <?php language_attributes();?>>
 <head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
+	<meta charset="<?php bloginfo('charset');?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-	<?php wp_head(); ?>
+	<?php wp_head();?>
 </head>
 
-<body <?php body_class(); ?>>
-<?php wp_body_open(); ?>
+<body <?php body_class();?>>
+<?php wp_body_open();?>
 
-<?php /*
-<div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'marinate-the-restaurant' ); ?></a>
-
-	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$marinate_the_restaurant_description = get_bloginfo( 'description', 'display' );
-			if ( $marinate_the_restaurant_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $marinate_the_restaurant_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
-			<?php endif; ?>
-		</div><!-- .site-branding -->
-
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'marinate-the-restaurant' ); ?></button>
-			<?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
-				)
-			);
-			?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
-
-  */ ?>
   <div id="preloader">
 		<div data-loader="circle-side"></div>
 	</div><!-- /Page Preload -->
@@ -72,9 +34,9 @@
 		<div class="layer"></div><!-- Opacity Mask Menu Mobile -->
 		<div class="container-fluid">
 		<div id="logo">
-			<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-				<img src="<?php asset_path( 'img/marinate-logo.png', true ); ?>" width="120" height="70" alt="" class="logo_normal">
-				<img src="<?php asset_path( 'img/marinate-logo.png', true ); ?>" width="120" height="70" alt="" class="logo_sticky">
+			<a href="<?php echo esc_url(home_url('/')); ?>">
+				<img src="<?php asset_path('img/logo/marinate-logo-red-white.png', true);?>" width="120" height="70" alt="" class="logo_normal">
+				<img src="<?php asset_path('img/logo/marinate-logo-vertical.png', true);?>" width="120" height="70" alt="" class="logo_sticky">
 			</a>
 		</div>
 
@@ -86,17 +48,17 @@
 				    <div class="dropdown-menu">
 				        <ul>
 				            <li>
-				                <figure><img src="<?php asset_path( 'img/item_placeholder_square_small.jpg', true ); ?>" data-src="img/item_square_small_1.jpg" alt="" width="50" height="50" class="lazy"></figure>
+				                <figure><img src="<?php asset_path('img/item_placeholder_square_small.jpg', true);?>" data-src="img/item_square_small_1.jpg" alt="" width="50" height="50" class="lazy"></figure>
 				                <strong><span>1x Pizza Napoli</span>$12.00</strong>
 				                <a href="#0" class="action"><i class="icon_trash_alt"></i></a>
 				            </li>
 				             <li>
-				                <figure><img src="<?php asset_path( 'img/item_placeholder_square_small.jpg', true ); ?>" data-src="img/item_square_small_2.jpg" alt="" width="50" height="50" class="lazy"></figure>
+				                <figure><img src="<?php asset_path('img/item_placeholder_square_small.jpg', true);?>" data-src="img/item_square_small_2.jpg" alt="" width="50" height="50" class="lazy"></figure>
 				                <strong><span>1x Hamburgher Maxi</span>$10.00</strong>
 				                <a href="#0" class="action"><i class="icon_trash_alt"></i></a>
 				            </li>
 				             <li>
-				                <figure><img src="<?php asset_path( 'img/item_placeholder_square_small.jpg', true ); ?>" data-src="img/item_square_small_3.jpg" alt="" width="50" height="50" class="lazy"></figure>
+				                <figure><img src="<?php asset_path('img/item_placeholder_square_small.jpg', true);?>" data-src="img/item_square_small_3.jpg" alt="" width="50" height="50" class="lazy"></figure>
 				                <strong><span>1x Red Wine Bottle</span>$20.00</strong>
 				                <a href="#0" class="action"><i class="icon_trash_alt"></i></a>
 				            </li>
@@ -118,16 +80,16 @@
 		        <a href="#0" class="open_close">
 		            <i class="icon_close"></i><span>Menu</span>
 		        </a>
-		        <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php asset_path( 'img/marinate-logo.png', true ); ?>" width="140" height="80" alt=""></a>
+		        <a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php asset_path('img/logo/marinate-logo-white.png', true);?>" width="140" height="80" alt=""></a>
 		    </div>
         <?php
         wp_nav_menu(
           array(
-            'theme_location' => 'menu-1',
-            'menu_id'        => 'primary-menu',
+              'theme_location' => 'menu-1',
+              'menu_id' => 'primary-menu',
           )
-        );
-      ?>
+      );
+?>
 		    <!-- <ul>
 		        <li class="submenu">
 		            <a href="#0" class="show-submenu">Home</a>

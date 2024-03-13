@@ -525,7 +525,7 @@ header.sticky a.open_close,
 .main-menu {
   position: relative;
   z-index: 9;
-  top: 1px;
+  top: 20px;
   float: right;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -556,16 +556,20 @@ header.sticky a.open_close,
   font-size: 0.875rem;
   font-weight: 500;
 }
-.main-menu ul li:hover a {
+.main-menu >ul >li:hover >a, .menu-primary-container >ul >li:hover >a {
   color: #f80000;
 }
 
 header.sticky .main-menu > ul > li > a,
-header.header_in .main-menu > ul > li > a {
+header.header_in .main-menu > ul > li > a,
+header.sticky .menu-primary-container > ul > li > a,
+header.header_in .menu-primary-container > ul > li > a{
   color: #444;
 }
 header.sticky .main-menu > ul > li:hover > a,
-header.header_in .main-menu > ul > li:hover > a {
+header.header_in .main-menu > ul > li:hover > a,
+header.sticky .menu-primary-container > ul > li:hover > a,
+header.header_in .menu-primary-container > ul > li:hover > a {
   opacity: 1;
   color: #f80000;
 }
@@ -1457,7 +1461,7 @@ ul#banners_grid {
 }
 ul#banners_grid li {
   position: relative;
-  width: 33.33%;
+  width: 50%;
   float: left;
   border-top: 5px solid #fff;
   border-right: 5px solid #fff;
