@@ -138,31 +138,31 @@ add_action( 'widgets_init', 'marinate_the_restaurant_widgets_init' );
  * Enqueue scripts and styles.
  */
 function marinate_the_restaurant_scripts() {
-	wp_enqueue_style( 'marinate-the-restaurant-style', get_stylesheet_uri(), array(), _S_VERSION );
-	wp_enqueue_style( 'vendors', get_template_directory_uri() . '/assets/css/vendors.min.css', array(), _S_VERSION );
-	wp_enqueue_style( 'main-style', get_template_directory_uri() . '/assets/css/style.css', array(), _S_VERSION );
+	wp_enqueue_style( 'marinate-the-restaurant-style', get_stylesheet_uri(), array() );
+	wp_enqueue_style( 'vendors', get_template_directory_uri() . '/assets/css/vendors.min.css', array() );
+	wp_enqueue_style( 'main-style', get_template_directory_uri() . '/assets/css/style.css', array() );
 	//index2.html
-  wp_enqueue_style( 'flex slider', get_template_directory_uri() . '/assets/css/flex_slider.css', array(), _S_VERSION );
-	wp_enqueue_style( 'wizard', get_template_directory_uri() . '/assets/css/wizard.css', array(), _S_VERSION );
-	wp_enqueue_style( 'vegas', get_template_directory_uri() . '/assets/css/vegas.min.css', array(), _S_VERSION );
-	wp_enqueue_style( 'custom', get_template_directory_uri() . '/assets/css/custom.css', array(), _S_VERSION );
+  wp_enqueue_style( 'flex slider', get_template_directory_uri() . '/assets/css/flex_slider.css', array() );
+	wp_enqueue_style( 'wizard', get_template_directory_uri() . '/assets/css/wizard.css', array() );
+	wp_enqueue_style( 'vegas', get_template_directory_uri() . '/assets/css/vegas.min.css', array());
+	wp_enqueue_style( 'custom', get_template_directory_uri() . '/assets/css/custom.css', array() );
 
-	wp_enqueue_script( 'common_scripts', get_template_directory_uri() . '/assets/js/common_scripts.min.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'common_scripts', get_template_directory_uri() . '/assets/js/common_scripts.min.js', array(), '', true );
 	//index2.html
-  wp_enqueue_script( 'jquery-flexslider', get_template_directory_uri() . '/assets/js/jquery.flexslider.js', array(), _S_VERSION, true );
-	wp_enqueue_script( 'slider', get_template_directory_uri() . '/assets/js/slider.js', array(), _S_VERSION, true );
-	wp_enqueue_script( 'slider-2', get_template_directory_uri() . '/assets/js/slider_2.js', array(), _S_VERSION, true );
-	wp_enqueue_script( 'common_func', get_template_directory_uri() . '/assets/js/common_func.js', array(), _S_VERSION, true );
+  wp_enqueue_script( 'jquery-flexslider', get_template_directory_uri() . '/assets/js/jquery.flexslider.js', array(), '', true );
+	wp_enqueue_script( 'slider', get_template_directory_uri() . '/assets/js/slider.js', array(), '', true );
+	wp_enqueue_script( 'slider-2', get_template_directory_uri() . '/assets/js/slider_2.js', array(), '', true );
+	wp_enqueue_script( 'common_func', get_template_directory_uri() . '/assets/js/common_func.js', array(), '', true );
 	//index3.hmtl
-  wp_enqueue_script( 'modernizr', get_template_directory_uri() . '/assets/js/modernizr.min.js', array(), _S_VERSION, true );
-	wp_enqueue_script( 'video-header', get_template_directory_uri() . '/assets/js/video_header.min.js', array(), _S_VERSION, true );
+  wp_enqueue_script( 'modernizr', get_template_directory_uri() . '/assets/js/modernizr.min.js', array(),'', true );
+	wp_enqueue_script( 'video-header', get_template_directory_uri() . '/assets/js/video_header.min.js', array(), '', true );
 
   //index5.html
-	wp_enqueue_script( 'typed', get_template_directory_uri() . '/assets/js/typed.min.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'typed', get_template_directory_uri() . '/assets/js/typed.min.js', array(), '', true );
 
   //SPECIFIC SCRIPTS (wizard form)
-  wp_enqueue_script( 'wizard_script', get_template_directory_uri() . '/assets/js/wizard/wizard_scripts.min.js', array(), _S_VERSION, true );
-	wp_enqueue_script( 'wizard_func', get_template_directory_uri() . '/assets/js/wizard/wizard_func.js', array(), _S_VERSION, true );
+  wp_enqueue_script( 'wizard_script', get_template_directory_uri() . '/assets/js/wizard/wizard_scripts.min.js', array(), '', true );
+	wp_enqueue_script( 'wizard_func', get_template_directory_uri() . '/assets/js/wizard/wizard_func.js', array(), '', true );
 
 
 
