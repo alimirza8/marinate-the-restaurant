@@ -9,8 +9,8 @@ get_header();
 <main>
 		<div id="carousel-home">
 			<div class="owl-carousel owl-theme">
-        <div class="owl-slide cover lazy" data-bg="url(<?php asset_path('img/slides/landing-page-01.png', true);?>)">
-					<div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.1)">
+        <div class="owl-slide cover lazy" data-bg="url(<?php asset_path('img/slides/landing-page-01b.png', true);?>)">
+					<div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(49, 16, 16, 0.6)">
 						<div class="container">
 							<div class="row justify-content-center justify-content-md-start">
 								<div class="col-lg-12 static">
@@ -24,12 +24,14 @@ get_header();
 								</div>
 							</div>
 						</div>
+
 					</div>
+          <p class="banner-marinate-text">Marinate</p>
 					<!--/owl-slide-->
 				</div>
 				<!--/owl-slide-->
-				<div class="owl-slide cover lazy" data-bg="url(<?php asset_path('img/slides/landing-page-02.png', true);?>)">
-					<div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.1)">
+				<div class="owl-slide cover lazy" data-bg="url(<?php asset_path('img/slides/landing-page-02b.png', true);?>)">
+					<div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(49, 16, 16, 0.6)">
 						<div class="container">
 							<div class="row justify-content-center justify-content-md-start">
 								<div class="col-lg-12 static">
@@ -44,11 +46,12 @@ get_header();
 							</div>
 						</div>
 					</div>
+          <p class="banner-marinate-text">Marinate</p>
 					<!--/owl-slide-->
 				</div>
 				<!--/owl-slide-->
-				<div class="owl-slide cover lazy" data-bg="url(<?php asset_path('img/slides/landing-page-03.png', true);?>)">
-					<div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.1)">
+				<div class="owl-slide cover lazy" data-bg="url(<?php asset_path('img/slides/landing-page-03b.png', true);?>)">
+					<div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(49, 16, 16, 0.6)">
 						<div class="container">
 							<div class="row justify-content-center justify-content-md-start">
 								<div class="col-lg-12 static">
@@ -63,11 +66,12 @@ get_header();
 							</div>
 						</div>
 					</div>
+          <p class="banner-marinate-text">Marinate</p>
 					<!--/owl-slide-->
 				</div>
         <!--/owl-slide-->
-				<div class="owl-slide cover lazy" data-bg="url(<?php asset_path('img/slides/landing-page-04.png', true);?>)">
-					<div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.1)">
+				<div class="owl-slide cover lazy" data-bg="url(<?php asset_path('img/slides/landing-page-04b.png', true);?>)">
+					<div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(49, 16, 16, 0.6)">
 						<div class="container">
 							<div class="row justify-content-center justify-content-md-start">
 								<div class="col-lg-12 static">
@@ -82,6 +86,7 @@ get_header();
 							</div>
 						</div>
 					</div>
+          <p class="banner-marinate-text">Marinate</p>
 					<!--/owl-slide-->
 				</div>
 			</div>

@@ -213,7 +213,7 @@ a:hover, a:focus {
 
 /* Buttons */
 a.btn_1,
-.btn_1 {
+.btn_1,.gform-button--width-full {
   border: none;
   background: #f80000;
   outline: none;
@@ -315,9 +315,23 @@ a.btn_play {
   color: #999;
   z-index: 99;
 }
+.banner-marinate-text{
+  position: absolute;
+  color: #f80000;
+  bottom: -80px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 120px;
+  letter-spacing: 5px;
+  font-weight: 600;
+}
 @media (max-width: 767px) {
   a.btn_play {
     display: none;
+  }
+  .banner-marinate-text{
+    font-size: 95px;
+    bottom: -65px;
   }
 }
 a.btn_play:hover {
@@ -870,6 +884,10 @@ header.header_in .menu-primary-container > ul > li:hover > a {
 @media only screen and (max-width: 480px) {
   .main-menu {
     width: 100%;
+  }
+  .banner-marinate-text{
+    font-size: 65px;
+    bottom: -55px;
   }
 }
 a.btn_top {

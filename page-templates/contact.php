@@ -63,24 +63,11 @@ get_header();
 		    <h5 class="mb_5">Drop Us a Line</h5>
 		    <div class="row">
 		        <div class="col-lg-4 col-md-6 add_bottom_25">
-		            <div id="message-contact"></div>
-		            <form method="post" action="phpmailer/contact_template_email.php" id="contactform" autocomplete="off">
-		                <div class="form-group">
-		                    <input class="form-control" type="text" placeholder="Name" id="name_contact" name="name_contact">
-		                </div>
-		                <div class="form-group">
-		                    <input class="form-control" type="email" placeholder="Email" id="email_contact" name="email_contact">
-		                </div>
-		                <div class="form-group">
-		                    <textarea class="form-control" style="height: 150px;" placeholder="Message" id="message_contact" name="message_contact"></textarea>
-		                </div>
-		                <div class="form-group">
-		                    <input class="form-control" type="text" id="verify_contact" name="verify_contact" placeholder="Are you human? 3 + 1 =">
-		                </div>
-		                <div class="form-group">
-		                    <input class="btn_1 full-width" type="submit" value="Submit" id="submit-contact">
-		                </div>
-		            </form>
+                <?php
+                  if( shortcode_exists( 'gravityform') ){
+                    echo do_shortcode('[gravityform id="1" title="false" description="false"]');
+                  }
+                ?>
 		        </div>
 		        <div class="col-lg-8 col-md-6 add_bottom_25">
 		            <iframe class="map_contact" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13447.597191451376!2d74.0575521!3d32.5822096!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391f1ac91138158d%3A0x497468c314f18892!2sMarinate%20Restaurant!5e0!3m2!1sen!2s!4v1710254917125!5m2!1sen!2s" allowfullscreen="" loading="lazy"></iframe>
