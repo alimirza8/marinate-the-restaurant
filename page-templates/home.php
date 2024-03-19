@@ -16,9 +16,7 @@ get_header();
 								<div class="col-lg-12 static">
 									<div class="slide-text text-center white">
 										<h2 class="owl-slide-animated owl-slide-title">Taste<br>unique food</h2>
-										<p class="owl-slide-animated owl-slide-subtitle">
-											Cooking delicious food since 2014
-										</p>
+										<p class="owl-slide-animated owl-slide-subtitle">Crafting Tempting Meals since 2014</p>
 										<!-- <div class="owl-slide-animated owl-slide-cta"><a class="btn_1" href="menu-1.html" role="button">Read more</a></div> -->
 									</div>
 								</div>
@@ -38,7 +36,7 @@ get_header();
 									<div class="slide-text text-center white">
 										<h2 class="owl-slide-animated owl-slide-title">Enjoy<br>a Party</h2>
 										<p class="owl-slide-animated owl-slide-subtitle">
-											Serving quality food since 2014
+                    Serving up Savory Delights since 2014
 										</p>
 										<!-- <div class="owl-slide-animated owl-slide-cta"><a class="btn_1" href="menu-1.html" role="button">Read more</a></div> -->
 									</div>
@@ -57,8 +55,7 @@ get_header();
 								<div class="col-lg-12 static">
 									<div class="slide-text text-center white">
 										<h2 class="owl-slide-animated owl-slide-title">Enjoy<br>a friends dinner</h2>
-										<p class="owl-slide-animated owl-slide-subtitle">
-											Cooking delicious food since 2014
+										<p class="owl-slide-animated owl-slide-subtitle">Delighting Taste Buds since 2014
 										</p>
 										<!-- <div class="owl-slide-animated owl-slide-cta"><a class="btn_1" href="menu-1.html" role="button">Read more</a></div> -->
 									</div>
@@ -76,7 +73,7 @@ get_header();
 							<div class="row justify-content-center justify-content-md-start">
 								<div class="col-lg-12 static">
 									<div class="slide-text text-center white">
-										<h2 class="owl-slide-animated owl-slide-title">Enjoy<br>a friends dinner</h2>
+										<h2 class="owl-slide-animated owl-slide-title">Enjoy<br>Delicious Dishes</h2>
 										<p class="owl-slide-animated owl-slide-subtitle">
 											Cooking delicious food since 2014
 										</p>
@@ -136,12 +133,11 @@ get_header();
               <div class="col-lg-5 pt-lg-4" data-cue="slideInUp" data-delay="500">
                   <div class="main_title">
                       <span><em></em></span>
-                      <h2>Some words about us</h2>
-                      <p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+                      <h2>An introduction to our eatery.</h2>
                   </div>
-                  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                  <p><img src="<?php asset_path('img/signature.png', true);?>" width="140" height="50" alt="" class="mt-3"></p>
+                  <p>Marinate is your one-stop destination for a diverse range of cuisines, from Pakistani delicacies to fast food and Chinese dishes to soups, pizzas, and indulgent ice cream shakes. Whether you’re in the mood for a quick bite or a hearty meal, our extensive menu has something for everyone. From classic Pakistani flavors to the savory delights of Chinese cuisine and the comfort of pizza, we promises a satisfying dining experience. Don’t forget to top it all off with one of our irresistible ice cream shakes for the perfect sweet finish.</p>
+                  <p>Conveniently located in the city center, Marinate is your go-to destination for a delightful dining experience that promises satisfaction with every bite</p>
+
               </div>
 		        </div>
 		        <!--/row -->
@@ -289,7 +285,7 @@ get_header();
             <div class="col-lg-5 col-md-6 text-center">
                 <div class="box_1" data-cue="slideInUp">
                     <h2>Celebrate<span>a Special Event with us!</span></h2>
-                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                    <p>Join us for memorable events filled with joy, laughter, and delicious food. Whether it's a birthday, anniversary, or any special milestone, let us make your celebration unforgettable</p>
                     <a href="<?php echo esc_url(home_url('/contact/')); ?>" class="btn_1 mt-3">Contact us</a>
                 </div>
             </div>
