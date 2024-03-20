@@ -2052,6 +2052,9 @@ ul#banners_grid li a.img_container .short_info p {
   .tabs_menu .nav-tabs {
     display: none;
   }
+  .tabs_menu .menu_item{
+    padding-left: 0;
+  }
 }
 .tabs_menu .nav-tabs .nav-item {
   text-transform: uppercase;

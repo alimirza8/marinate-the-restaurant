@@ -295,44 +295,56 @@ get_header();
 				    </ul>
 				    <div class="tab-content add_bottom_25" role="tablist">
 				        <div id="pane-A" class="card tab-pane fade show active" role="tabpanel" aria-labelledby="tab-A">
-
-				            <div id="collapse-A" class="collapse" role="tabpanel" aria-labelledby="heading-A">
-                      <div class="card-body">
-                        <div class="row magnific-gallery add_top_30">
-                          <div class="col-lg-12">
-                              <div class="menu_item">
-                                  <div class="menu_title">
-                                      <h3>Gujrat</h3>
-                                  </div>
-                                  <p>Chenab School Road, Servis Industries</p>
-                              </div>
-                          </div>
-                          <div class="col-lg-12">
-                              <div class="menu_item">
-                                  <div class="menu_title">
-                                      <h3>Kharian</h3>
-                                  </div>
-                                  <p>Near Al Ghani Petroleum, GT Road</p>
-                              </div>
-                          </div>
-                          <div class="col-lg-12">
-                              <div class="menu_item">
-                                  <div class="menu_title">
-                                      <h3>Swat</h3>
-                                  </div>
-                                  <p>Kalam Road, Fizagat Sangota</p>
-                              </div>
-                          </div>
-                        </div>
-                    <!-- /row -->
+                  <div class="card-header" role="tab" id="heading-A">
+                          <h5>
+                              <a class="collapsed" data-bs-toggle="collapse" href="#collapse-A" aria-expanded="true" aria-controls="collapse-A">
+                                  Pakistan
+                              </a>
+                          </h5>
                       </div>
-				                <!-- /card-body -->
-				            </div>
-				        </div>
+                      <div id="collapse-A" class="collapse" role="tabpanel" aria-labelledby="heading-A">
+                        <div class="card-body">
+                          <div class="row magnific-gallery add_top_30">
+                            <div class="col-lg-12">
+                                <div class="menu_item">
+                                    <div class="menu_title">
+                                        <h3>Gujrat</h3>
+                                    </div>
+                                    <p>Chenab School Road, Servis Industries</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="menu_item">
+                                    <div class="menu_title">
+                                        <h3>Kharian</h3>
+                                    </div>
+                                    <p>Near Al Ghani Petroleum, GT Road</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="menu_item">
+                                    <div class="menu_title">
+                                        <h3>Swat</h3>
+                                    </div>
+                                    <p>Kalam Road, Fizagat Sangota</p>
+                                </div>
+                            </div>
+                          </div>
+                      <!-- /row -->
+                        </div>
+                          <!-- /card-body -->
+                      </div>
+                  </div>
 				        <!-- /tab -->
 				        <div id="pane-B" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-B">
-
-				            <div id="collapse-B" class="collapse" role="tabpanel" aria-labelledby="heading-B">
+                  <div class="card-header" role="tab" id="heading-B">
+                    <h5>
+                        <a class="collapsed" data-bs-toggle="collapse" href="#collapse-B" aria-expanded="false" aria-controls="collapse-B">
+                            International
+                        </a>
+                    </h5>
+                </div>
+				          <div id="collapse-B" class="collapse" role="tabpanel" aria-labelledby="heading-B">
                     <div class="card-body">
                         <div class="row magnific-gallery add_top_30">
                           <div class="col-lg-12">
@@ -361,8 +373,8 @@ get_header();
                           </div>
                         </div>
                     <!-- /row -->
-                      </div>
-				            </div>
+                    </div>
+				          </div>
 				        </div>
 
 				        <!-- /tab -->
