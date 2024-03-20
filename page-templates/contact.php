@@ -8,7 +8,7 @@ get_header();
 
 <main>
 
-		<div class="hero_single inner_pages background-image" data-background="url(<?php asset_path('img/hero_contact.jpeg', true); ?>)">
+		<div class="hero_single inner_pages background-image" data-background="url(<?php asset_path('img/contact-us.png', true); ?>)">
 			<div class="opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.6)">
 				<div class="container">
 					<div class="row justify-content-center">

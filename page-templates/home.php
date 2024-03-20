@@ -280,7 +280,7 @@ get_header();
 		</div>
 		<!-- /bg_gray -->
 
-		<div class="call_section lazy" data-bg="url(<?php asset_path('img/bg_call_section.jpg', true);?>)">
+		<div class="call_section lazy" data-bg="url(<?php asset_path('img/celebration.png', true);?>)">
       <div class="container clearfix">
         <div class="row justify-content-center">
             <div class="col-lg-5 col-md-6 text-center">
