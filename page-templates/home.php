@@ -259,7 +259,7 @@ get_header();
           <!-- /row -->
 
           <!-- /row -->
-          <p class="text-center"><a href="#0" class="btn_1 outline">Download Menu</a></p>
+          <!-- <p class="text-center"><a href="#0" class="btn_1 outline">Download Menu</a></p> -->
       </div>
       <!-- /container -->
     </div>
