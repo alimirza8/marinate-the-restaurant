@@ -94,6 +94,7 @@
 <div id="toTop"></div><!-- Back to top button -->
 
 <!-- Modal terms -->
+<?php  /*
 <div class="modal fade" id="terms-txt" tabindex="-1" role="dialog" aria-labelledby="termsLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
@@ -110,12 +111,13 @@
     <!-- /.modal-content -->
   </div>
   <!-- /.modal-dialog -->
-</div>
+</div> */
+?>
 <!-- /.modal -->
 <?php wp_footer(); ?>
 
 <!-- typing text -->
-<script>
+<!-- <script>
   var typed = new Typed('.element', {
     strings: ["Delicious Food", "Nice Ambient", "Affordable Prices"],
     startDelay: 10,
@@ -123,20 +125,20 @@
     backDelay: 2000,
     typeSpeed: 50
   });
-</script>
+</script> -->
 
 <!-- Video Header -->
-<script>
+<!-- <script>
   HeaderVideo.init({
     container: $('.header-video'),
     header: $('.header-video--media'),
     videoTrigger: $("#video-trigger"),
     autoPlayVideo: true
   });
-</script>
+</script> -->
 
 <!-- kenburns slider -->
-<script>
+<!-- <script>
   $(function() {
     "use strict";
     $('.kenburns_slider').vegas({
@@ -158,7 +160,7 @@
       animationDuration: 70000
     });
   });
-</script>
+</script> -->
 
 </body>
 

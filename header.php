@@ -81,7 +81,7 @@
 		        <a href="#0" class="open_close">
 		            <i class="icon_close"></i><span>Menu</span>
 		        </a>
-		        <a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php asset_path('img/logo/marinate-logo-white.png', true);?>" width="140" height="80" alt=""></a>
+		        <a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php asset_path('img/logo/marinate-logo-white.png', true);?>" width="120" height="70" alt=""></a>
 		    </div>
         <?php
         wp_nav_menu(

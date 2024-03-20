@@ -149,9 +149,9 @@ function marinate_the_restaurant_scripts() {
 
 	wp_enqueue_script( 'common_scripts', get_template_directory_uri() . '/assets/js/common_scripts.min.js', array(), '', true );
 	//index2.html
-  wp_enqueue_script( 'jquery-flexslider', get_template_directory_uri() . '/assets/js/jquery.flexslider.js', array(), '', true );
+  // wp_enqueue_script( 'jquery-flexslider', get_template_directory_uri() . '/assets/js/jquery.flexslider.js', array(), '', true );
 	wp_enqueue_script( 'slider', get_template_directory_uri() . '/assets/js/slider.js', array(), '', true );
-	wp_enqueue_script( 'slider-2', get_template_directory_uri() . '/assets/js/slider_2.js', array(), '', true );
+	// wp_enqueue_script( 'slider-2', get_template_directory_uri() . '/assets/js/slider_2.js', array(), '', true );
 	wp_enqueue_script( 'common_func', get_template_directory_uri() . '/assets/js/common_func.js', array(), '', true );
 	//index3.hmtl
   wp_enqueue_script( 'modernizr', get_template_directory_uri() . '/assets/js/modernizr.min.js', array(),'', true );
