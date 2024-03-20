@@ -93,8 +93,8 @@ get_header();
 
 		<ul id="banners_grid" class="clearfix">
 			<li>
-				<a href="#" class="img_container">
-					<img src="<?php asset_path('img/banners_cat_placeholder.jpg', true);?>" data-src="<?php asset_path('img/banner_1.jpg', true);?>" alt="" class="lazy">
+				<a href="#marinate-menu" class="img_container">
+					<img src="<?php asset_path('img/menu.png', true);?>" data-src="<?php asset_path('img/menu.png', true);?>" alt="" class="lazy">
 					<div class="short_info opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.5)">
 						<h3>Our Menu</h3>
 						<p>View Our Specialites</p>
@@ -102,8 +102,8 @@ get_header();
 				</a>
 			</li>
 			<li>
-				<a href="#" class="img_container">
-					<img src="<?php asset_path('img/banners_cat_placeholder.jpg', true);?>" data-src="<?php asset_path('img/banner_2.jpg', true);?>" alt="" class="lazy">
+				<a href="javascript:void(0)" class="img_container">
+					<img src="<?php asset_path('img/delivery.png', true);?>" data-src="<?php asset_path('img/delivery.png', true);?>" alt="" class="lazy">
 					<div class="short_info opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.5)">
 						<h3>Delivery</h3>
 						<p>Home delivery or take away food</p>
@@ -127,7 +127,7 @@ get_header();
 		        <div class="row justify-content-center d-flex align-items-center">
               <div class="col-lg-5 text-lg-center d-none d-lg-block" data-cue="slideInUp">
                   <figure>
-                      <img src="<?php asset_path('img/home_1.jpg', true);?>" data-src="<?php asset_path('img/home_1.jpg', true);?>" width="354" height="440" alt="" class="img-fluid lazy">
+                      <img src="<?php asset_path('img/chef.png', true);?>" data-src="<?php asset_path('img/chef.png', true);?>" width="354" height="440" alt="" class="img-fluid lazy">
                   </figure>
               </div>
               <div class="col-lg-5 pt-lg-4" data-cue="slideInUp" data-delay="500">
@@ -146,25 +146,26 @@ get_header();
 		</div>
 		<!--/pattern_2 -->
 
-		<div class="bg_gray">
+		<div class="bg_gray" id="marinate-menu" >
       <div class="container margin_120_100" data-cue="slideInUp">
           <div class="main_title center mb-5">
               <span><em></em></span>
-              <h2>Our Daily Menu</h2>
+              <h2>Our Delicious Menu</h2>
           </div>
           <!-- /main_title -->
+          <?php /*
           <div class="banner lazy" data-bg="url(<?php asset_path('img/banner_bg.jpg', true);?>)">
-                  <div class="wrapper d-flex align-items-center justify-content-between opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.5)">
-                      <div>
-                          <small>Special Offer</small>
-                          <h3>Burgher Menu $18 only</h3>
-                          <p>Hamburgher, Chips, Mix Sausages, Beer, Muffin</p>
-                          <!-- <a href="reservations.html" class="btn_1">Reserve now</a> -->
-                      </div>
-                      <figure class="d-none d-lg-block"><img src="<?php asset_path('img/banner.svg', true);?>" alt="" width="200" height="200" class="img-fluid"></figure>
+              <div class="wrapper d-flex align-items-center justify-content-between opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.5)">
+                  <div>
+                      <small>Special Offer</small>
+                      <h3>Burgher Menu $18 only</h3>
+                      <p>Hamburgher, Chips, Mix Sausages, Beer, Muffin</p>
+                      <a href="reservations.html" class="btn_1">Reserve now</a>
                   </div>
-                  <!-- /wrapper -->
+                  <figure class="d-none d-lg-block"><img src="<?php asset_path('img/banner.svg', true);?>" alt="" width="200" height="200" class="img-fluid"></figure>
               </div>
+          </div> */
+          ?>
               <!-- /banner -->
           <div class="row magnific-gallery homepage add_bottom_25">
                   <div class="col-lg-6" data-cue="slideInUp">
@@ -273,7 +274,7 @@ get_header();
                   </div>
               </div>
               <!-- /row -->
-          <p class="text-center"><a href="#0" class="btn_1 outline" data-cue="zoomIn">Download Menu</a></p>
+          <p class="text-center"><a href="#" class="btn_1 outline" data-cue="zoomIn">Download Menu</a></p>
       </div>
 		    <!-- /container -->
 		</div>

@@ -316,6 +316,8 @@ a.btn_play {
   z-index: 99;
 }
 .banner-marinate-text{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
   position: absolute;
   color: #f80000;
   bottom: -80px;
@@ -323,7 +325,6 @@ a.btn_play {
   transform: translateX(-50%);
   font-size: 120px;
   letter-spacing: 5px;
-  font-weight: 600;
 }
 @media (max-width: 767px) {
   a.btn_play {

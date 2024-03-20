@@ -33,21 +33,21 @@
   <div class="frame black"></div>
   <div class="container">
     <div class="row">
-      <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
+      <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
         <div class="footer_wp">
           <i class="icon_pin_alt"></i>
           <h3>Address</h3>
           <p>Chenab School Road, Servis Industries, <br>Gujrat - Pakistan</p>
         </div>
       </div>
-      <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
+      <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
         <div class="footer_wp">
           <i class="icon_tag_alt"></i>
           <h3>Reservations</h3>
-          <p><a href="tel:+920533724692">+92 053 3724692</a><br><a href="mailto:themarinaterestaurant@gmail.com">themarinaterestaurant@gmail.com</a></p>
+          <p><a href="tel:+920533724692">+92 053 3724692</a><br><a href="mailto:reservations@marinatetherestaurant.com">reservations@marinatetherestaurant.com</a></p>
         </div>
       </div>
-      <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
+      <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
         <div class="footer_wp">
           <i class="icon_clock_alt"></i>
           <h3>Opening Hours</h3>
@@ -56,7 +56,7 @@
           </ul>
         </div>
       </div>
-      <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
+      <!-- <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
         <h3>Keep in touch</h3>
         <div id="newsletter">
           <div id="message-newsletter"></div>
@@ -67,7 +67,7 @@
             </div>
           </form>
         </div>
-      </div>
+      </div> -->
     </div>
     <!-- /row-->
     <hr>
@@ -78,10 +78,10 @@
       <div class="col-sm-7">
         <div class="follow_us">
           <ul>
-            <li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?php asset_path( 'img/twitter_icon.svg', true ); ?>" alt="" class="lazy"></a></li>
-            <li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?php asset_path( 'img/facebook_icon.svg', true ); ?>" alt="" class="lazy"></a></li>
+            <li><a href="https://www.facebook.com/marinatetherestaurant/" target="_blank"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?php asset_path( 'img/facebook_icon.svg', true ); ?>" alt="" class="lazy"></a></li>
+            <!-- <li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?php asset_path( 'img/twitter_icon.svg', true ); ?>" alt="" class="lazy"></a></li>
             <li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?php asset_path( 'img/instagram_icon.svg', true ); ?>" alt="" class="lazy"></a></li>
-            <li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?php asset_path( 'img/youtube_icon.svg', true ); ?>" alt="" class="lazy"></a></li>
+            <li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?php asset_path( 'img/youtube_icon.svg', true ); ?>" alt="" class="lazy"></a></li> -->
           </ul>
         </div>
       </div>
