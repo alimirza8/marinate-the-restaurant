@@ -44,7 +44,7 @@
         <div class="footer_wp">
           <i class="icon_tag_alt"></i>
           <h3>Reservations</h3>
-          <p><a href="tel:+920533724692">+92 053 3724692</a><br><a href="mailto:reservations@marinatetherestaurant.com">reservations@marinatetherestaurant.com</a></p>
+          <p><a href="tel:+92533724692">+92 53 3724692</a><br><a href="mailto:reservations@marinatetherestaurant.com">reservations@marinatetherestaurant.com</a></p>
         </div>
       </div>
       <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
@@ -79,8 +79,8 @@
         <div class="follow_us">
           <ul>
             <li><a href="https://www.facebook.com/marinatetherestaurant/" target="_blank"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?php asset_path( 'img/facebook_icon.svg', true ); ?>" alt="" class="lazy"></a></li>
+            <li><a href="https://www.instagram.com/marinate.the.restaurant/" target="_blank"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?php asset_path( 'img/instagram_icon.svg', true ); ?>" alt="" class="lazy"></a></li>
             <!-- <li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?php asset_path( 'img/twitter_icon.svg', true ); ?>" alt="" class="lazy"></a></li>
-            <li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?php asset_path( 'img/instagram_icon.svg', true ); ?>" alt="" class="lazy"></a></li>
             <li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?php asset_path( 'img/youtube_icon.svg', true ); ?>" alt="" class="lazy"></a></li> -->
           </ul>
         </div>

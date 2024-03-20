@@ -136,7 +136,7 @@ get_header();
                       <h2>An introduction to our eatery.</h2>
                   </div>
                   <p>Marinate is your one-stop destination for a diverse range of cuisines, from Pakistani delicacies to fast food and Chinese dishes to soups, pizzas, and indulgent ice cream shakes. Whether you’re in the mood for a quick bite or a hearty meal, our extensive menu has something for everyone. From classic Pakistani flavors to the savory delights of Chinese cuisine and the comfort of pizza, we promises a satisfying dining experience. Don’t forget to top it all off with one of our irresistible ice cream shakes for the perfect sweet finish.</p>
-                  <p>Conveniently located in the city center, Marinate is your go-to destination for a delightful dining experience that promises satisfaction with every bite</p>
+                  <p>Conveniently located in the city center, Marinate is your go-to destination for a delightful dining experience that promises satisfaction with every bite.</p>
 
               </div>
 		        </div>
@@ -278,7 +278,101 @@ get_header();
         </div>
       </div>
     </div>
-   		<!--/call_section-->
+    <div class="bg_gray">
+	        <div class="container margin_60_40" data-cue="slideInUp">
+          <div class="main_title center">
+              <span><em></em></span>
+              <h2>Our Branches</h2>
+          </div>
+	          <div class="tabs_menu add_bottom_25">
+				    <ul class="nav nav-tabs" role="tablist">
+				        <li class="nav-item">
+				            <a id="tab-A" href="#pane-A" class="nav-link active" data-bs-toggle="tab" role="tab">Pakistan</a>
+				        </li>
+				        <li class="nav-item">
+				            <a id="tab-B" href="#pane-B" class="nav-link" data-bs-toggle="tab" role="tab">International</a>
+				        </li>
+				    </ul>
+				    <div class="tab-content add_bottom_25" role="tablist">
+				        <div id="pane-A" class="card tab-pane fade show active" role="tabpanel" aria-labelledby="tab-A">
+
+				            <div id="collapse-A" class="collapse" role="tabpanel" aria-labelledby="heading-A">
+                      <div class="card-body">
+                        <div class="row magnific-gallery add_top_30">
+                          <div class="col-lg-12">
+                              <div class="menu_item">
+                                  <div class="menu_title">
+                                      <h3>Gujrat</h3>
+                                  </div>
+                                  <p>Chenab School Road, Servis Industries</p>
+                              </div>
+                          </div>
+                          <div class="col-lg-12">
+                              <div class="menu_item">
+                                  <div class="menu_title">
+                                      <h3>Kharian</h3>
+                                  </div>
+                                  <p>Near Al Ghani Petroleum, GT Road</p>
+                              </div>
+                          </div>
+                          <div class="col-lg-12">
+                              <div class="menu_item">
+                                  <div class="menu_title">
+                                      <h3>Swat</h3>
+                                  </div>
+                                  <p>Kalam Road, Fizagat Sangota</p>
+                              </div>
+                          </div>
+                        </div>
+                    <!-- /row -->
+                      </div>
+				                <!-- /card-body -->
+				            </div>
+				        </div>
+				        <!-- /tab -->
+				        <div id="pane-B" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-B">
+
+				            <div id="collapse-B" class="collapse" role="tabpanel" aria-labelledby="heading-B">
+                    <div class="card-body">
+                        <div class="row magnific-gallery add_top_30">
+                          <div class="col-lg-12">
+                              <div class="menu_item">
+                                  <div class="menu_title">
+                                      <h3>Milan, Italy</h3>
+                                  </div>
+                                  <p>Coming Soon</p>
+                              </div>
+                          </div>
+                          <div class="col-lg-12">
+                              <div class="menu_item">
+                                  <div class="menu_title">
+                                      <h3>Riyadh, KSA</h3>
+                                  </div>
+                                  <p>Coming Soon</p>
+                              </div>
+                          </div>
+                          <div class="col-lg-12">
+                              <div class="menu_item">
+                                  <div class="menu_title">
+                                      <h3>Sharjah, UAE</h3>
+                                  </div>
+                                  <p>Coming Soon</p>
+                              </div>
+                          </div>
+                        </div>
+                    <!-- /row -->
+                      </div>
+				            </div>
+				        </div>
+
+				        <!-- /tab -->
+				    </div>
+				    <!-- /tab-content -->
+			  </div>
+			  <!-- /tabs_menu-->
+	        </div>
+	        <!-- /container -->
+	    </div>
 
 		<!-- <div class="pattern_2">
       <div class="container margin_120_100 pb-0">
@@ -409,4 +503,4 @@ get_header();
       </div>
 		</div> -->
 	</main>
-<?php get_footer(); ?>
+<?php get_footer();?>
