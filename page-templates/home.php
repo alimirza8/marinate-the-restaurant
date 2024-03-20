@@ -171,105 +171,100 @@ get_header();
                   <div class="col-lg-6" data-cue="slideInUp">
                       <div class="menu_item">
                           <figure>
-                              <a href="<?php asset_path('img/menu_items/large/3.jpg', true);?>" title="Summer Berry" data-effect="mfp-zoom-in">
-                                  <img src="<?php asset_path('img/menu_items/menu_items_placeholder.png', true);?>" data-src="<?php asset_path('img/menu_items/3.jpg', true);?>" class="lazy" alt="">
+                              <a href="<?php asset_path('img/menu_items/large/italian.png', true);?>" title="Italian" data-effect="mfp-zoom-in">
+                                  <img src="<?php asset_path('img/menu_items/large/italian.png', true);?>" data-src="<?php asset_path('img/menu_items/large/italian.png', true);?>" class="lazy" alt="">
                               </a>
                           </figure>
                           <div class="menu_title">
-                              <h3>Summer Berry</h3><em>$8</em>
+                              <h3>Italian</h3>
+                               <!-- <em>$10</em> -->
                           </div>
-                          <p>Raspberries, Blackberries</p>
+                          <!-- <p>Raspberries, Blackberries</p> -->
                       </div>
                   </div>
                   <div class="col-lg-6" data-cue="slideInUp">
                       <div class="menu_item">
                           <figure>
-                              <a href="<?php asset_path('img/menu_items/large/4.jpg', true);?>" title="Coconut Tart" data-effect="mfp-zoom-in">
-                                  <img src="<?php asset_path('img/menu_items/menu_items_placeholder.png', true);?>" data-src="<?php asset_path('img/menu_items/4.jpg', true);?>" class="lazy" alt="">
+                              <a href="<?php asset_path('img/menu_items/large/pakistani-cusine.png', true);?>" title="Pakistani Cusine" data-effect="mfp-zoom-in">
+                                  <img src="<?php asset_path('img/menu_items/large/pakistani-cusine.png', true);?>" data-src="<?php asset_path('img/menu_items/large/pakistani-cusine.png', true);?>" class="lazy" alt="">
                               </a>
                           </figure>
                           <div class="menu_title">
-                              <h3>Coconut Tart</h3><em>$10</em>
+                              <h3>Pakistani Cuisine</h3>
                           </div>
-                          <p>Blueberries, Graham cracker crumbs</p>
+
                       </div>
                   </div>
                   <div class="col-lg-6" data-cue="slideInUp">
                       <div class="menu_item">
                           <figure>
-                              <a href="<?php asset_path('img/menu_items/large/5.jpg', true);?>" title="Pumpkin Cookies" data-effect="mfp-zoom-in">
-                                  <img src="<?php asset_path('img/menu_items/menu_items_placeholder.png', true);?>" data-src="<?php asset_path('img/menu_items/5.jpg', true);?>" class="lazy" alt="">
+                              <a href="<?php asset_path('img/menu_items/large/bbq.png', true);?>" title="BBQ & Grill" data-effect="mfp-zoom-in">
+                                  <img src="<?php asset_path('img/menu_items/large/bbq.png', true);?>" data-src="<?php asset_path('img/menu_items/large/bbq.png', true);?>" class="lazy" alt="">
                               </a>
                           </figure>
                           <div class="menu_title">
-                              <h3>Pumpkin Cookies</h3><em>$11</em>
+                              <h3>BBQ & Grill</h3>
                           </div>
-                          <p>Pumpkin, Sugar, Butter</p>
                       </div>
                   </div>
                   <div class="col-lg-6" data-cue="slideInUp">
                       <div class="menu_item">
                           <figure>
-                              <a href="<?php asset_path('img/menu_items/large/7.jpg', true);?>" title="Cookies Cream Cheese" data-effect="mfp-zoom-in">
-                                  <img src="<?php asset_path('img/menu_items/menu_items_placeholder.png', true);?>" data-src="<?php asset_path('img/menu_items/7.jpg', true);?>" class="lazy" alt="">
+                              <a href="<?php asset_path('img/menu_items/large/burgers.png', true);?>" title="Burgers" data-effect="mfp-zoom-in">
+                                  <img src="<?php asset_path('img/menu_items/large/burgers.png', true);?>" data-src="<?php asset_path('img/menu_items/large/burgers.png', true);?>" class="lazy" alt="">
                               </a>
                           </figure>
                           <div class="menu_title">
-                              <h3>Cookies Cream Cheese</h3><em>$14</em>
+                              <h3>Burgers</h3>
                           </div>
-                          <p>Sugar, Butter, Eggs</p>
                       </div>
                   </div>
                   <div class="col-lg-6" data-cue="slideInUp">
                       <div class="menu_item">
                           <figure>
-                              <a href="<?php asset_path('img/menu_items/large/8.jpg', true);?>" title="Chocolate Cupcakes" data-effect="mfp-zoom-in">
-                                  <img src="<?php asset_path('img/menu_items/menu_items_placeholder.png', true);?>" data-src="<?php asset_path('img/menu_items/8.jpg', true);?>" class="lazy" alt="">
+                              <a href="<?php asset_path('img/menu_items/large/rice.png', true);?>" title="Rice" data-effect="mfp-zoom-in">
+                                  <img src="<?php asset_path('img/menu_items/large/rice.png', true);?>" data-src="<?php asset_path('img/menu_items/large/rice.png', true);?>" class="lazy" alt="">
                               </a>
                           </figure>
                           <div class="menu_title">
-                              <h3>Chocolate Cupcakes</h3><em>$14</em>
+                              <h3>Rice</h3>
                           </div>
-                          <p>Chocolate, Eggs, Vanilla</p>
                       </div>
                   </div>
                   <div class="col-lg-6" data-cue="slideInUp">
                       <div class="menu_item">
                           <figure>
-                              <a href="<?php asset_path('img/menu_items/large/9.jpg', true);?>" title="Chocolate Cupcakes" data-effect="mfp-zoom-in">
-                                  <img src="<?php asset_path('img/menu_items/menu_items_placeholder.png', true);?>" data-src="<?php asset_path('img/menu_items/9.jpg', true);?>" class="lazy" alt="">
+                              <a href="<?php asset_path('img/menu_items/large/salads.png', true);?>" title="Salads" data-effect="mfp-zoom-in">
+                                  <img src="<?php asset_path('img/menu_items/large/salads.png', true);?>" data-src="<?php asset_path('img/menu_items/large/salads.png', true);?>" class="lazy" alt="">
                               </a>
                           </figure>
                           <div class="menu_title">
-                              <h3>Chocolate Cupcakes</h3><em>$14</em>
+                              <h3>Salads</h3>
                           </div>
-                          <p>Chocolate, Eggs, Vanilla</p>
                       </div>
                   </div>
                   <div class="col-lg-6" data-cue="slideInUp">
                       <div class="menu_item">
                           <figure>
-                              <a href="<?php asset_path('img/menu_items/large/10.jpg', true);?>" title="Soft shell crab" data-effect="mfp-zoom-in">
-                                  <img src="<?php asset_path('img/menu_items/large/3.jpg', true);?>" data-src="<?php asset_path('img/menu_items/10.jpg', true);?>" class="lazy" alt="">
+                              <a href="<?php asset_path('img/menu_items/large/juices.png', true);?>" title="Juices" data-effect="mfp-zoom-in">
+                                  <img src="<?php asset_path('img/menu_items/large/juices.png', true);?>" data-src="<?php asset_path('img/menu_items/large/juices.png', true);?>" class="lazy" alt="">
                               </a>
                           </figure>
                           <div class="menu_title">
-                              <h3>Soft shell crab</h3><em>$14</em>
+                              <h3>Juices</h3>
                           </div>
-                          <p>Chicken, Potato, Salad</p>
                       </div>
                   </div>
                   <div class="col-lg-6" data-cue="slideInUp">
                       <div class="menu_item">
                           <figure>
-                              <a href="<?php asset_path('img/menu_items/large/11.jpg', true);?>" title="Soft shell crab" data-effect="mfp-zoom-in">
-                                  <img src="<?php asset_path('img/menu_items/menu_items_placeholder.png', true);?>" data-src="<?php asset_path('img/menu_items/11.jpg', true);?>" class="lazy" alt="">
+                              <a href="<?php asset_path('img/menu_items/large/deserts.png', true);?>" title="Deserts" data-effect="mfp-zoom-in">
+                                  <img src="<?php asset_path('img/menu_items/large/deserts.png', true);?>" data-src="<?php asset_path('img/menu_items/large/deserts.png', true);?>" class="lazy" alt="">
                               </a>
                           </figure>
                           <div class="menu_title">
-                              <h3>Soft shell crab</h3><em>$14</em>
+                              <h3>Deserts</h3>
                           </div>
-                          <p>Chicken, Potato, Salad</p>
                       </div>
                   </div>
               </div>

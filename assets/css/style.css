@@ -1914,10 +1914,10 @@ ul#banners_grid li a.img_container .short_info p {
   transform: translate(-50%, -50%) scale(1);
 }
 .menu_item .menu_title {
-  background: radial-gradient(#d5d5d5 40%, rgba(0, 0, 0, 0) 10%);
-  background-position: 0 13px;
+  /* background: radial-gradient(#d5d5d5 40%, rgba(0, 0, 0, 0) 10%); */
+  /* background-position: 0 13px;
   background-size: 4px 4px;
-  background-repeat: repeat-x;
+  background-repeat: repeat-x; */
 }
 .menu_item .menu_title h3 {
   background-color: #fff;
