@@ -146,133 +146,123 @@ get_header();
 		</div>
 		<!--/pattern_2 -->
 
-		<div class="bg_gray" id="marinate-menu" >
-      <div class="container margin_120_100" data-cue="slideInUp">
-          <div class="main_title center mb-5">
+    <div class="bg_gray">
+      <div class="container margin_60_40" data-cues="slideInUp">
+          <div class="main_title center">
               <span><em></em></span>
               <h2>Our Delicious Menu</h2>
           </div>
-          <!-- /main_title -->
-          <?php /*
-          <div class="banner lazy" data-bg="url(<?php asset_path('img/banner_bg.jpg', true);?>)">
-              <div class="wrapper d-flex align-items-center justify-content-between opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.5)">
-                  <div>
-                      <small>Special Offer</small>
-                      <h3>Burgher Menu $18 only</h3>
-                      <p>Hamburgher, Chips, Mix Sausages, Beer, Muffin</p>
-                      <a href="reservations.html" class="btn_1">Reserve now</a>
-                  </div>
-                  <figure class="d-none d-lg-block"><img src="<?php asset_path('img/banner.svg', true);?>" alt="" width="200" height="200" class="img-fluid"></figure>
-              </div>
-          </div> */
-          ?>
-              <!-- /banner -->
-          <div class="row magnific-gallery homepage add_bottom_25">
-                  <div class="col-lg-6" data-cue="slideInUp">
-                      <div class="menu_item">
-                          <figure>
-                              <a href="<?php asset_path('img/menu_items/large/italian.png', true);?>" title="Italian" data-effect="mfp-zoom-in">
-                                  <img src="<?php asset_path('img/menu_items/large/italian.png', true);?>" data-src="<?php asset_path('img/menu_items/large/italian.png', true);?>" class="lazy" alt="">
-                              </a>
-                          </figure>
-                          <div class="menu_title">
-                              <h3>Italian</h3>
-                               <!-- <em>$10</em> -->
-                          </div>
-                          <!-- <p>Raspberries, Blackberries</p> -->
-                      </div>
-                  </div>
-                  <div class="col-lg-6" data-cue="slideInUp">
-                      <div class="menu_item">
-                          <figure>
-                              <a href="<?php asset_path('img/menu_items/large/pakistani-cusine.png', true);?>" title="Pakistani Cusine" data-effect="mfp-zoom-in">
-                                  <img src="<?php asset_path('img/menu_items/large/pakistani-cusine.png', true);?>" data-src="<?php asset_path('img/menu_items/large/pakistani-cusine.png', true);?>" class="lazy" alt="">
-                              </a>
-                          </figure>
-                          <div class="menu_title">
-                              <h3>Pakistani Cuisine</h3>
-                          </div>
 
-                      </div>
-                  </div>
-                  <div class="col-lg-6" data-cue="slideInUp">
-                      <div class="menu_item">
-                          <figure>
-                              <a href="<?php asset_path('img/menu_items/large/bbq.png', true);?>" title="BBQ & Grill" data-effect="mfp-zoom-in">
-                                  <img src="<?php asset_path('img/menu_items/large/bbq.png', true);?>" data-src="<?php asset_path('img/menu_items/large/bbq.png', true);?>" class="lazy" alt="">
-                              </a>
-                          </figure>
-                          <div class="menu_title">
-                              <h3>BBQ & Grill</h3>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-lg-6" data-cue="slideInUp">
-                      <div class="menu_item">
-                          <figure>
-                              <a href="<?php asset_path('img/menu_items/large/burgers.png', true);?>" title="Burgers" data-effect="mfp-zoom-in">
-                                  <img src="<?php asset_path('img/menu_items/large/burgers.png', true);?>" data-src="<?php asset_path('img/menu_items/large/burgers.png', true);?>" class="lazy" alt="">
-                              </a>
-                          </figure>
-                          <div class="menu_title">
-                              <h3>Burgers</h3>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-lg-6" data-cue="slideInUp">
-                      <div class="menu_item">
-                          <figure>
-                              <a href="<?php asset_path('img/menu_items/large/rice.png', true);?>" title="Rice" data-effect="mfp-zoom-in">
-                                  <img src="<?php asset_path('img/menu_items/large/rice.png', true);?>" data-src="<?php asset_path('img/menu_items/large/rice.png', true);?>" class="lazy" alt="">
-                              </a>
-                          </figure>
-                          <div class="menu_title">
-                              <h3>Rice</h3>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-lg-6" data-cue="slideInUp">
-                      <div class="menu_item">
-                          <figure>
-                              <a href="<?php asset_path('img/menu_items/large/salads.png', true);?>" title="Salads" data-effect="mfp-zoom-in">
-                                  <img src="<?php asset_path('img/menu_items/large/salads.png', true);?>" data-src="<?php asset_path('img/menu_items/large/salads.png', true);?>" class="lazy" alt="">
-                              </a>
-                          </figure>
-                          <div class="menu_title">
-                              <h3>Salads</h3>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-lg-6" data-cue="slideInUp">
-                      <div class="menu_item">
-                          <figure>
-                              <a href="<?php asset_path('img/menu_items/large/juices.png', true);?>" title="Juices" data-effect="mfp-zoom-in">
-                                  <img src="<?php asset_path('img/menu_items/large/juices.png', true);?>" data-src="<?php asset_path('img/menu_items/large/juices.png', true);?>" class="lazy" alt="">
-                              </a>
-                          </figure>
-                          <div class="menu_title">
-                              <h3>Juices</h3>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-lg-6" data-cue="slideInUp">
-                      <div class="menu_item">
-                          <figure>
-                              <a href="<?php asset_path('img/menu_items/large/deserts.png', true);?>" title="Deserts" data-effect="mfp-zoom-in">
-                                  <img src="<?php asset_path('img/menu_items/large/deserts.png', true);?>" data-src="<?php asset_path('img/menu_items/large/deserts.png', true);?>" class="lazy" alt="">
-                              </a>
-                          </figure>
-                          <div class="menu_title">
-                              <h3>Deserts</h3>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <!-- /row -->
-          <p class="text-center"><a href="#" class="btn_1 outline" data-cue="zoomIn">Download Menu</a></p>
+          <div class="row justify-content-center magnific-gallery mb-5">
+            <div class="col-md-4 col-xl-4" data-cue="slideInUp">
+                <div class="item menu_item_grid">
+                    <div class="item-img" data-cue="slideInUp">
+                        <img src="<?php asset_path('img/menu_items/large/italian.png', true);?>" alt="">
+                        <div class="content">
+                            <a href="<?php asset_path('img/menu_items/large/italian.png', true);?>" title="Italian" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+                        </div>
+                    </div>
+                    <h3>Italian</h3>
+                    <!-- <p>Chicken, Potato, Salad</p>
+                    <div class="price_box">
+                        <span class="new_price">$10.00</span>
+                        <span class="old_price">$12.00</span>
+                    </div> -->
+                </div>
+                <!-- /grid_item -->
+            </div>
+            <div class="col-md-4 col-xl-4" data-cue="slideInUp">
+                <div class="item menu_item_grid">
+                    <div class="item-img" data-cue="slideInUp">
+                        <img src="<?php asset_path('img/menu_items/large/pakistani-cusine.png', true);?>" alt="">
+                        <div class="content">
+                            <a href="<?php asset_path('img/menu_items/large/pakistani-cusine.png', true);?>" title="Pakistani Cusine" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+                        </div>
+                    </div>
+                    <h3>Pakistani Cusine</h3>
+                </div>
+                <!-- /grid_item -->
+            </div>
+            <div class="col-md-4 col-xl-4" data-cue="slideInUp">
+                <div class="item menu_item_grid">
+                    <div class="item-img" data-cue="slideInUp">
+                        <img src="<?php asset_path('img/menu_items/large/bbq.png', true);?>" alt="">
+                        <div class="content">
+                            <a href="<?php asset_path('img/menu_items/large/bbq.png', true);?>" title="BBQ & Grill" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+                        </div>
+                    </div>
+                    <h3>BBQ & Grill</h3>
+                </div>
+                <!-- /grid_item -->
+            </div>
+            <div class="col-md-4 col-xl-4" data-cue="slideInUp">
+                <div class="item menu_item_grid">
+                    <div class="item-img" data-cue="slideInUp">
+                        <img src="<?php asset_path('img/menu_items/large/burgers.png', true);?>" alt="">
+                        <div class="content">
+                            <a href="<?php asset_path('img/menu_items/large/burgers.png', true);?>" title="Burgers" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+                        </div>
+                    </div>
+                    <h3>Burgers</h3>
+                </div>
+                <!-- /grid_item -->
+            </div>
+            <div class="col-md-4 col-xl-4" data-cue="slideInUp">
+                <div class="item menu_item_grid">
+                    <div class="item-img" data-cue="slideInUp">
+                        <img src="<?php asset_path('img/menu_items/large/rice.png', true);?>" alt="">
+                        <div class="content">
+                            <a href="<?php asset_path('img/menu_items/large/rice.png', true);?>" title="Rice" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+                        </div>
+                    </div>
+                    <h3>Rice</h3>
+                </div>
+                <!-- /grid_item -->
+            </div>
+            <div class="col-md-4 col-xl-4" data-cue="slideInUp">
+                <div class="item menu_item_grid">
+                    <div class="item-img" data-cue="slideInUp">
+                        <img src="<?php asset_path('img/menu_items/large/salads.png', true);?>" alt="">
+                        <div class="content">
+                            <a href="<?php asset_path('img/menu_items/large/salads.png', true);?>" title="Salads" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+                        </div>
+                    </div>
+                    <h3>Salads</h3>
+                </div>
+                <!-- /grid_item -->
+            </div>
+            <div class="col-md-4 col-xl-4" data-cue="slideInUp">
+                <div class="item menu_item_grid">
+                    <div class="item-img" data-cue="slideInUp">
+                        <img src="<?php asset_path('img/menu_items/large/juices.png', true);?>" alt="">
+                        <div class="content">
+                            <a href="<?php asset_path('img/menu_items/large/juices.png', true);?>" title="Juices" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+                        </div>
+                    </div>
+                    <h3>Juices</h3>
+                </div>
+                <!-- /grid_item -->
+            </div>
+            <div class="col-md-4 col-xl-4" data-cue="slideInUp">
+                <div class="item menu_item_grid">
+                    <div class="item-img" data-cue="slideInUp">
+                        <img src="<?php asset_path('img/menu_items/large/deserts.png', true);?>" alt="">
+                        <div class="content">
+                            <a href="<?php asset_path('img/menu_items/large/deserts.png', true);?>" title="Deserts" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+                        </div>
+                    </div>
+                    <h3>Deserts</h3>
+                </div>
+                <!-- /grid_item -->
+            </div>
+          </div>
+          <!-- /row -->
+
+          <!-- /row -->
+          <p class="text-center"><a href="#0" class="btn_1 outline">Download Menu</a></p>
       </div>
-		    <!-- /container -->
-		</div>
+      <!-- /container -->
+    </div>
 		<!-- /bg_gray -->
 
 		<div class="call_section lazy" data-bg="url(<?php asset_path('img/celebration.jpeg', true);?>)">
