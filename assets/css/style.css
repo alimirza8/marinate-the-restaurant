@@ -1902,8 +1902,9 @@ ul#banners_grid li a.img_container .short_info p {
   border-radius: 50%;
 }
 .menu_item figure img {
-  width: 80px;
-  height: auto;
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
   position: absolute;
   left: 50%;
   top: 50%;

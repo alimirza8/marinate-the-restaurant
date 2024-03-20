@@ -138,7 +138,7 @@ add_action( 'widgets_init', 'marinate_the_restaurant_widgets_init' );
  * Enqueue scripts and styles.
  */
 function marinate_the_restaurant_scripts() {
-	wp_enqueue_style( 'marinate-the-restaurant-style', get_stylesheet_uri(), array() );
+	wp_enqueue_style( 'marinate-the-restaurant-style', get_stylesheet_uri(), array(), false );
 	wp_enqueue_style( 'vendors', get_template_directory_uri() . '/assets/css/vendors.min.css', array() );
 	wp_enqueue_style( 'main-style', get_template_directory_uri() . '/assets/css/style.css', array() );
 	//index2.html
