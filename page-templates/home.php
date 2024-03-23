@@ -385,18 +385,18 @@ get_header();
       </div>
 	        <!-- /container -->
 	  </div>
-<?php /*
+
+
     <div class="container margin_60_40">
 	        <div class="main_title center">
 	            <span><em></em></span>
 	            <h2>Here some photos</h2>
-	            <p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
 	        </div>
 			<div class="isotope-wrapper mb-4">
 				<div class="row-gallery magnific-gallery">
 					<div class="item">
 					    <div class="item-img" data-cue="slideInUp">
-					        <img src="<?php asset_path('img/gallery/large/gallery_masonry_1.jpg', true); ?>" alt="" />
+					        <img class="small" src="<?php asset_path('img/gallery/large/gallery_masonry_1.jpg', true); ?>" alt="" />
 					        <div class="content">
 					            <a href="<?php asset_path('img/gallery/large/gallery_masonry_1.jpg', true); ?>" title="Marinate" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
 					        </div>
@@ -404,7 +404,7 @@ get_header();
 					</div>
 					<div class="item">
 					    <div class="item-img" data-cue="slideInUp">
-					        <img src="<?php asset_path('img/gallery/large/gallery_masonry_2.jpg', true); ?>" alt="" />
+					        <img class="small" src="<?php asset_path('img/gallery/large/gallery_masonry_2.jpg', true); ?>" alt="" />
 					        <div class="content">
 					            <a href="<?php asset_path('img/gallery/large/gallery_masonry_2.jpg', true); ?>" title="Marinate" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
 					        </div>
@@ -412,7 +412,7 @@ get_header();
 					</div>
 					<div class="item">
 					    <div class="item-img" data-cue="slideInUp">
-					        <img src="<?php asset_path('img/gallery/large/gallery_masonry_3.jpg', true); ?>" alt="" />
+					        <img class="small" src="<?php asset_path('img/gallery/large/gallery_masonry_3.jpg', true); ?>" alt="" />
 					        <div class="content">
 					            <a href="<?php asset_path('img/gallery/large/gallery_masonry_3.jpg', true); ?>" title="Marinate" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
 					        </div>
@@ -420,7 +420,7 @@ get_header();
 					</div>
 					<div class="item">
 					    <div class="item-img" data-cue="slideInUp">
-					        <img src="<?php asset_path('img/gallery/large/gallery_masonry_4.jpg', true); ?>" alt="" />
+					        <img class="small" src="<?php asset_path('img/gallery/large/gallery_masonry_4.jpg', true); ?>" alt="" />
 					        <div class="content">
 					            <a href="<?php asset_path('img/gallery/large/gallery_masonry_4.jpg', true); ?>" title="Marinate" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
 					        </div>
@@ -428,7 +428,7 @@ get_header();
 					</div>
 					<div class="item">
 					    <div class="item-img" data-cue="slideInUp">
-					        <img src="<?php asset_path('img/gallery/large/gallery_masonry_5.jpg', true); ?>" alt="" />
+					        <img class="small" src="<?php asset_path('img/gallery/large/gallery_masonry_5.jpg', true); ?>" alt="" />
 					        <div class="content">
 					            <a href="<?php asset_path('img/gallery/large/gallery_masonry_5.jpg', true); ?>" title="Marinate" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
 					        </div>
@@ -436,7 +436,7 @@ get_header();
 					</div>
 					<div class="item">
 					    <div class="item-img" data-cue="slideInUp">
-					        <img src="<?php asset_path('img/gallery/large/gallery_masonry_6.jpg', true); ?>" alt="" />
+					        <img class="small" rc="<?php asset_path('img/gallery/large/gallery_masonry_6.jpg', true); ?>" alt="" />
 					        <div class="content">
 					            <a href="<?php asset_path('img/gallery/large/gallery_masonry_6.jpg', true); ?>" title="Marinate" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
 					        </div>
@@ -444,7 +444,7 @@ get_header();
 					</div>
 					<div class="item">
 					    <div class="item-img" data-cue="slideInUp">
-					        <img src="<?php asset_path('img/gallery/large/gallery_masonry_7.jpg', true); ?>" alt="" />
+					        <img class="small" src="<?php asset_path('img/gallery/large/gallery_masonry_7.jpg', true); ?>" alt="" />
 					        <div class="content">
 					            <a href="<?php asset_path('img/gallery/large/gallery_masonry_7.jpg', true); ?>" title="Marinate" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
 					        </div>
@@ -452,7 +452,7 @@ get_header();
 					</div>
 					<div class="item">
 					    <div class="item-img" data-cue="slideInUp">
-					        <img src="<?php asset_path('img/gallery/large/gallery_masonry_8.jpg', true); ?>" alt="" />
+					        <img class="small" src="<?php asset_path('img/gallery/large/gallery_masonry_8.jpg', true); ?>" alt="" />
 					        <div class="content">
 					            <a href="<?php asset_path('img/gallery/large/gallery_masonry_8.jpg', true); ?>" title="Marinate" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
 					        </div>
@@ -460,7 +460,7 @@ get_header();
 					</div>
           <div class="item">
 					    <div class="item-img" data-cue="slideInUp">
-					        <img src="<?php asset_path('img/gallery/large/gallery_masonry_9.jpg', true); ?>" alt="" />
+					        <img class="small" src="<?php asset_path('img/gallery/large/gallery_masonry_9.jpg', true); ?>" alt="" />
 					        <div class="content">
 					            <a href="<?php asset_path('img/gallery/large/gallery_masonry_9.jpg', true); ?>" title="Marinate" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
 					        </div>
@@ -468,7 +468,7 @@ get_header();
 					</div>
           <div class="item">
 					    <div class="item-img" data-cue="slideInUp">
-					        <img src="<?php asset_path('img/gallery/large/gallery_masonry_10.jpg', true); ?>" alt="" />
+					        <img class="small" src="<?php asset_path('img/gallery/large/gallery_masonry_10.jpg', true); ?>" alt="" />
 					        <div class="content">
 					            <a href="<?php asset_path('img/gallery/large/gallery_masonry_10.jpg', true); ?>" title="Marinate" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
 					        </div>
@@ -606,7 +606,5 @@ get_header();
           </div>
       </div>
 		</div> -->
-
-    */ ?>
 	</main>
 <?php get_footer();?>
