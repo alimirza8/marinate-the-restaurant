@@ -33,7 +33,7 @@
 	scrollCue.init({
 	    percentage : 0.85
 	});
-	
+
 	// Menu
 	$('a.open_close').on("click", function () {
 		$('.main-menu').toggleClass('show');
@@ -52,7 +52,7 @@
 			$('a.cart_bt').attr("data-bs-toggle", "dropdown")
 		}
 	});
-	
+
 	// Opacity mask
 	$('.opacity-mask').each(function(){
 		$(this).css('background-color', $(this).attr('data-opacity-mask'));
@@ -71,8 +71,8 @@
 	$('#toTop').on('click', function(){
 	 $('html, body').animate({scrollTop:0}, scrollSpeed);
 	 return false;
-	});	
-	
+	});
+
 	// Image popups
 	$('.magnific-gallery').each(function () {
 		$(this).magnificPopup({
@@ -85,7 +85,7 @@
 			removalDelay: 500, //delay removal by X to allow out-animation
 			callbacks: {
 				beforeOpen: function () {
-					// just a hack that adds mfp-anim class to markup 
+					// just a hack that adds mfp-anim class to markup
 					this.st.image.markup = this.st.image.markup.replace('mfp-figure', 'mfp-figure mfp-with-anim');
 					this.st.mainClass = this.st.el.attr('data-effect');
 				}
@@ -107,7 +107,7 @@
 			removalDelay: 500, //delay removal by X to allow out-animation
 			callbacks: {
 				beforeOpen: function () {
-					// just a hack that adds mfp-anim class to markup 
+					// just a hack that adds mfp-anim class to markup
 					this.st.image.markup = this.st.image.markup.replace('mfp-figure', 'mfp-figure mfp-with-anim');
 					this.st.mainClass = this.st.el.attr('data-effect');
 				}
@@ -176,4 +176,10 @@
 			});
 	});
 
-})(window.jQuery); 
+  $(window).on('load', function(){
+	  var $container = $('.isotope-wrapper');
+	  $container.isotope({ itemSelector: '.item', layoutMode: 'masonry', });
+	});
+
+})(window.jQuery);
+

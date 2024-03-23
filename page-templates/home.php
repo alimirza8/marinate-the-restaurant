@@ -157,9 +157,9 @@ get_header();
             <div class="col-md-4 col-xl-4" data-cue="slideInUp">
                 <div class="item menu_item_grid">
                     <div class="item-img" data-cue="slideInUp">
-                        <img src="<?php asset_path('img/menu_items/large/italian.png', true);?>" alt="">
+                        <img src="<?php asset_path('img/menu_items/large/italian.jpeg', true);?>" alt="">
                         <div class="content">
-                            <a href="<?php asset_path('img/menu_items/large/italian.png', true);?>" title="Italian" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+                            <a href="<?php asset_path('img/menu_items/large/italian.jpeg', true);?>" title="Italian" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
                         </div>
                     </div>
                     <h3>Italian</h3>
@@ -174,9 +174,9 @@ get_header();
             <div class="col-md-4 col-xl-4" data-cue="slideInUp">
                 <div class="item menu_item_grid">
                     <div class="item-img" data-cue="slideInUp">
-                        <img src="<?php asset_path('img/menu_items/large/pakistani-cusine.png', true);?>" alt="">
+                        <img src="<?php asset_path('img/menu_items/large/pakistani-cusine.jpeg', true);?>" alt="">
                         <div class="content">
-                            <a href="<?php asset_path('img/menu_items/large/pakistani-cusine.png', true);?>" title="Pakistani Cusine" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+                            <a href="<?php asset_path('img/menu_items/large/pakistani-cusine.jpeg', true);?>" title="Pakistani Cusine" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
                         </div>
                     </div>
                     <h3>Pakistani Cusine</h3>
@@ -186,9 +186,9 @@ get_header();
             <div class="col-md-4 col-xl-4" data-cue="slideInUp">
                 <div class="item menu_item_grid">
                     <div class="item-img" data-cue="slideInUp">
-                        <img src="<?php asset_path('img/menu_items/large/bbq.png', true);?>" alt="">
+                        <img src="<?php asset_path('img/menu_items/large/bbq.jpeg', true);?>" alt="">
                         <div class="content">
-                            <a href="<?php asset_path('img/menu_items/large/bbq.png', true);?>" title="BBQ & Grill" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+                            <a href="<?php asset_path('img/menu_items/large/bbq.jpeg', true);?>" title="BBQ & Grill" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
                         </div>
                     </div>
                     <h3>BBQ & Grill</h3>
@@ -210,9 +210,9 @@ get_header();
             <div class="col-md-4 col-xl-4" data-cue="slideInUp">
                 <div class="item menu_item_grid">
                     <div class="item-img" data-cue="slideInUp">
-                        <img src="<?php asset_path('img/menu_items/large/rice.png', true);?>" alt="">
+                        <img src="<?php asset_path('img/menu_items/large/rice.jpeg', true);?>" alt="">
                         <div class="content">
-                            <a href="<?php asset_path('img/menu_items/large/rice.png', true);?>" title="Rice" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+                            <a href="<?php asset_path('img/menu_items/large/rice.jpeg', true);?>" title="Rice" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
                         </div>
                     </div>
                     <h3>Rice</h3>
@@ -222,9 +222,9 @@ get_header();
             <div class="col-md-4 col-xl-4" data-cue="slideInUp">
                 <div class="item menu_item_grid">
                     <div class="item-img" data-cue="slideInUp">
-                        <img src="<?php asset_path('img/menu_items/large/salads.png', true);?>" alt="">
+                        <img src="<?php asset_path('img/menu_items/large/salads.jpeg', true);?>" alt="">
                         <div class="content">
-                            <a href="<?php asset_path('img/menu_items/large/salads.png', true);?>" title="Salads" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+                            <a href="<?php asset_path('img/menu_items/large/salads.jpeg', true);?>" title="Salads" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
                         </div>
                     </div>
                     <h3>Salads</h3>
@@ -234,9 +234,9 @@ get_header();
             <div class="col-md-4 col-xl-4" data-cue="slideInUp">
                 <div class="item menu_item_grid">
                     <div class="item-img" data-cue="slideInUp">
-                        <img src="<?php asset_path('img/menu_items/large/juices.png', true);?>" alt="">
+                        <img src="<?php asset_path('img/menu_items/large/juices.jpeg', true);?>" alt="">
                         <div class="content">
-                            <a href="<?php asset_path('img/menu_items/large/juices.png', true);?>" title="Juices" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+                            <a href="<?php asset_path('img/menu_items/large/juices.jpeg', true);?>" title="Juices" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
                         </div>
                     </div>
                     <h3>Juices</h3>
@@ -246,9 +246,9 @@ get_header();
             <div class="col-md-4 col-xl-4" data-cue="slideInUp">
                 <div class="item menu_item_grid">
                     <div class="item-img" data-cue="slideInUp">
-                        <img src="<?php asset_path('img/menu_items/large/deserts.png', true);?>" alt="">
+                        <img src="<?php asset_path('img/menu_items/large/deserts.jpeg', true);?>" alt="">
                         <div class="content">
-                            <a href="<?php asset_path('img/menu_items/large/deserts.png', true);?>" title="Deserts" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+                            <a href="<?php asset_path('img/menu_items/large/deserts.jpeg', true);?>" title="Deserts" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
                         </div>
                     </div>
                     <h3>Deserts</h3>
@@ -279,111 +279,203 @@ get_header();
       </div>
     </div>
     <div class="bg_gray">
-	        <div class="container margin_60_40" data-cue="slideInUp">
-          <div class="main_title center">
-              <span><em></em></span>
-              <h2>Our Branches</h2>
-          </div>
-	          <div class="tabs_menu add_bottom_25">
-				    <ul class="nav nav-tabs" role="tablist">
-				        <li class="nav-item">
-				            <a id="tab-A" href="#pane-A" class="nav-link active" data-bs-toggle="tab" role="tab">Pakistan</a>
-				        </li>
-				        <li class="nav-item">
-				            <a id="tab-B" href="#pane-B" class="nav-link" data-bs-toggle="tab" role="tab">International</a>
-				        </li>
-				    </ul>
-				    <div class="tab-content add_bottom_25" role="tablist">
-				        <div id="pane-A" class="card tab-pane fade show active" role="tabpanel" aria-labelledby="tab-A">
-                  <div class="card-header" role="tab" id="heading-A">
-                          <h5>
-                              <a class="collapsed" data-bs-toggle="collapse" href="#collapse-A" aria-expanded="true" aria-controls="collapse-A">
-                                  Pakistan
-                              </a>
-                          </h5>
-                      </div>
-                      <div id="collapse-A" class="collapse" role="tabpanel" aria-labelledby="heading-A">
-                        <div class="card-body">
-                          <div class="row magnific-gallery add_top_30">
-                            <div class="col-lg-12">
-                                <div class="menu_item">
-                                    <div class="menu_title">
-                                        <h3>Gujrat</h3>
-                                    </div>
-                                    <p>Chenab School Road, Servis Industries</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="menu_item">
-                                    <div class="menu_title">
-                                        <h3>Kharian</h3>
-                                    </div>
-                                    <p>Near Al Ghani Petroleum, GT Road</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="menu_item">
-                                    <div class="menu_title">
-                                        <h3>Swat</h3>
-                                    </div>
-                                    <p>Kalam Road, Fizagat Sangota</p>
-                                </div>
-                            </div>
-                          </div>
-                      <!-- /row -->
-                        </div>
-                          <!-- /card-body -->
-                      </div>
-                  </div>
-				        <!-- /tab -->
-				        <div id="pane-B" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-B">
-                  <div class="card-header" role="tab" id="heading-B">
-                    <h5>
-                        <a class="collapsed" data-bs-toggle="collapse" href="#collapse-B" aria-expanded="false" aria-controls="collapse-B">
-                            International
-                        </a>
-                    </h5>
-                </div>
-				          <div id="collapse-B" class="collapse" role="tabpanel" aria-labelledby="heading-B">
-                    <div class="card-body">
+      <div class="container margin_60_40" data-cue="slideInUp">
+        <div class="main_title center">
+            <span><em></em></span>
+            <h2>Our Branches</h2>
+        </div>
+        <div class="tabs_menu add_bottom_25">
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item">
+                    <a id="tab-A" href="#pane-A" class="nav-link active" data-bs-toggle="tab" role="tab">Pakistan</a>
+                </li>
+                <li class="nav-item">
+                    <a id="tab-B" href="#pane-B" class="nav-link" data-bs-toggle="tab" role="tab">International</a>
+                </li>
+            </ul>
+          <div class="tab-content add_bottom_25" role="tablist">
+              <div id="pane-A" class="card tab-pane fade show active" role="tabpanel" aria-labelledby="tab-A">
+                <div class="card-header" role="tab" id="heading-A">
+                        <h5>
+                            <a class="collapsed" data-bs-toggle="collapse" href="#collapse-A" aria-expanded="true" aria-controls="collapse-A">
+                                Pakistan
+                            </a>
+                        </h5>
+                    </div>
+                    <div id="collapse-A" class="collapse" role="tabpanel" aria-labelledby="heading-A">
+                      <div class="card-body">
                         <div class="row magnific-gallery add_top_30">
                           <div class="col-lg-12">
                               <div class="menu_item">
                                   <div class="menu_title">
-                                      <h3>Milan, Italy</h3>
+                                      <h3>Gujrat</h3>
                                   </div>
-                                  <p>Coming Soon</p>
+                                  <p>Chenab School Road, Servis Industries</p>
                               </div>
                           </div>
                           <div class="col-lg-12">
                               <div class="menu_item">
                                   <div class="menu_title">
-                                      <h3>Riyadh, KSA</h3>
+                                      <h3>Kharian</h3>
                                   </div>
-                                  <p>Coming Soon</p>
+                                  <p>Near Al Ghani Petroleum, GT Road</p>
                               </div>
                           </div>
                           <div class="col-lg-12">
                               <div class="menu_item">
                                   <div class="menu_title">
-                                      <h3>Sharjah, UAE</h3>
+                                      <h3>Swat</h3>
                                   </div>
-                                  <p>Coming Soon</p>
+                                  <p>Kalam Road, Fizagat Sangota</p>
                               </div>
                           </div>
                         </div>
                     <!-- /row -->
+                      </div>
+                        <!-- /card-body -->
                     </div>
-				          </div>
-				        </div>
+                </div>
+              <!-- /tab -->
+              <div id="pane-B" class="card tab-pane fade" role="tabpanel" aria-labelledby="tab-B">
+                <div class="card-header" role="tab" id="heading-B">
+                  <h5>
+                      <a class="collapsed" data-bs-toggle="collapse" href="#collapse-B" aria-expanded="false" aria-controls="collapse-B">
+                          International
+                      </a>
+                  </h5>
+              </div>
+                <div id="collapse-B" class="collapse" role="tabpanel" aria-labelledby="heading-B">
+                  <div class="card-body">
+                      <div class="row magnific-gallery add_top_30">
+                        <div class="col-lg-12">
+                            <div class="menu_item">
+                                <div class="menu_title">
+                                    <h3>Milan, Italy</h3>
+                                </div>
+                                <p>Coming Soon</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="menu_item">
+                                <div class="menu_title">
+                                    <h3>Riyadh, KSA</h3>
+                                </div>
+                                <p>Coming Soon</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="menu_item">
+                                <div class="menu_title">
+                                    <h3>Sharjah, UAE</h3>
+                                </div>
+                                <p>Coming Soon</p>
+                            </div>
+                        </div>
+                      </div>
+                  <!-- /row -->
+                  </div>
+                </div>
+              </div>
 
-				        <!-- /tab -->
-				    </div>
-				    <!-- /tab-content -->
-			  </div>
-			  <!-- /tabs_menu-->
-	        </div>
+              <!-- /tab -->
+          </div>
+          <!-- /tab-content -->
+        </div>
+    <!-- /tabs_menu-->
+      </div>
 	        <!-- /container -->
+	  </div>
+<?php /*
+    <div class="container margin_60_40">
+	        <div class="main_title center">
+	            <span><em></em></span>
+	            <h2>Here some photos</h2>
+	            <p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+	        </div>
+			<div class="isotope-wrapper mb-4">
+				<div class="row-gallery magnific-gallery">
+					<div class="item">
+					    <div class="item-img" data-cue="slideInUp">
+					        <img src="<?php asset_path('img/gallery/large/gallery_masonry_1.jpg', true); ?>" alt="" />
+					        <div class="content">
+					            <a href="<?php asset_path('img/gallery/large/gallery_masonry_1.jpg', true); ?>" title="Marinate" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+					        </div>
+					    </div>
+					</div>
+					<div class="item">
+					    <div class="item-img" data-cue="slideInUp">
+					        <img src="<?php asset_path('img/gallery/large/gallery_masonry_2.jpg', true); ?>" alt="" />
+					        <div class="content">
+					            <a href="<?php asset_path('img/gallery/large/gallery_masonry_2.jpg', true); ?>" title="Marinate" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+					        </div>
+					    </div>
+					</div>
+					<div class="item">
+					    <div class="item-img" data-cue="slideInUp">
+					        <img src="<?php asset_path('img/gallery/large/gallery_masonry_3.jpg', true); ?>" alt="" />
+					        <div class="content">
+					            <a href="<?php asset_path('img/gallery/large/gallery_masonry_3.jpg', true); ?>" title="Marinate" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+					        </div>
+					    </div>
+					</div>
+					<div class="item">
+					    <div class="item-img" data-cue="slideInUp">
+					        <img src="<?php asset_path('img/gallery/large/gallery_masonry_4.jpg', true); ?>" alt="" />
+					        <div class="content">
+					            <a href="<?php asset_path('img/gallery/large/gallery_masonry_4.jpg', true); ?>" title="Marinate" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+					        </div>
+					    </div>
+					</div>
+					<div class="item">
+					    <div class="item-img" data-cue="slideInUp">
+					        <img src="<?php asset_path('img/gallery/large/gallery_masonry_5.jpg', true); ?>" alt="" />
+					        <div class="content">
+					            <a href="<?php asset_path('img/gallery/large/gallery_masonry_5.jpg', true); ?>" title="Marinate" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+					        </div>
+					    </div>
+					</div>
+					<div class="item">
+					    <div class="item-img" data-cue="slideInUp">
+					        <img src="<?php asset_path('img/gallery/large/gallery_masonry_6.jpg', true); ?>" alt="" />
+					        <div class="content">
+					            <a href="<?php asset_path('img/gallery/large/gallery_masonry_6.jpg', true); ?>" title="Marinate" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+					        </div>
+					    </div>
+					</div>
+					<div class="item">
+					    <div class="item-img" data-cue="slideInUp">
+					        <img src="<?php asset_path('img/gallery/large/gallery_masonry_7.jpg', true); ?>" alt="" />
+					        <div class="content">
+					            <a href="<?php asset_path('img/gallery/large/gallery_masonry_7.jpg', true); ?>" title="Marinate" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+					        </div>
+					    </div>
+					</div>
+					<div class="item">
+					    <div class="item-img" data-cue="slideInUp">
+					        <img src="<?php asset_path('img/gallery/large/gallery_masonry_8.jpg', true); ?>" alt="" />
+					        <div class="content">
+					            <a href="<?php asset_path('img/gallery/large/gallery_masonry_8.jpg', true); ?>" title="Marinate" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+					        </div>
+					    </div>
+					</div>
+          <div class="item">
+					    <div class="item-img" data-cue="slideInUp">
+					        <img src="<?php asset_path('img/gallery/large/gallery_masonry_9.jpg', true); ?>" alt="" />
+					        <div class="content">
+					            <a href="<?php asset_path('img/gallery/large/gallery_masonry_9.jpg', true); ?>" title="Marinate" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+					        </div>
+					    </div>
+					</div>
+          <div class="item">
+					    <div class="item-img" data-cue="slideInUp">
+					        <img src="<?php asset_path('img/gallery/large/gallery_masonry_10.jpg', true); ?>" alt="" />
+					        <div class="content">
+					            <a href="<?php asset_path('img/gallery/large/gallery_masonry_10.jpg', true); ?>" title="Marinate" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+					        </div>
+					    </div>
+					</div>
+				</div>
+			</div>
 	    </div>
 
 		<!-- <div class="pattern_2">
@@ -514,5 +606,7 @@ get_header();
           </div>
       </div>
 		</div> -->
+
+    */ ?>
 	</main>
 <?php get_footer();?>
