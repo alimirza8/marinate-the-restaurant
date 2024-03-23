@@ -198,9 +198,9 @@ get_header();
             <div class="col-md-4 col-xl-4" data-cue="slideInUp">
                 <div class="item menu_item_grid">
                     <div class="item-img" data-cue="slideInUp">
-                        <img src="<?php asset_path('img/menu_items/large/burgers.png', true);?>" alt="">
+                        <img src="<?php asset_path('img/menu_items/large/burgers.jpeg', true);?>" alt="">
                         <div class="content">
-                            <a href="<?php asset_path('img/menu_items/large/burgers.png', true);?>" title="Burgers" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+                            <a href="<?php asset_path('img/menu_items/large/burgers.jpeg', true);?>" title="Burgers" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
                         </div>
                     </div>
                     <h3>Burgers</h3>
