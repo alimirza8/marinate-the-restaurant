@@ -20,8 +20,8 @@ get_header();
 
     <section class="menu-section">
       <div class="full-container">
-        <div class="half-container" style="background-image:url(<?php asset_path('img/daymenu/page-03.png', true); ?>)"></div>
         <div class="half-container" style="background-image:url(<?php asset_path('img/daymenu/page-04.png', true); ?>)"></div>
+        <div class="half-container" style="background-image:url(<?php asset_path('img/daymenu/page-03.png', true); ?>)"></div>
       </div>
     </section>
 
@@ -34,8 +34,8 @@ get_header();
 
     <section class="menu-section">
       <div class="full-container">
-        <div class="half-container" style="background-image:url(<?php asset_path('img/daymenu/page-07.png', true); ?>)"></div>
         <div class="half-container" style="background-image:url(<?php asset_path('img/daymenu/page-08.png', true); ?>)"></div>
+        <div class="half-container" style="background-image:url(<?php asset_path('img/daymenu/page-07.png', true); ?>)"></div>
       </div>
     </section>
 
@@ -48,8 +48,8 @@ get_header();
 
     <section class="menu-section">
       <div class="full-container">
-        <div class="half-container" style="background-image:url(<?php asset_path('img/daymenu/page-11.png', true); ?>)"></div>
         <div class="half-container" style="background-image:url(<?php asset_path('img/daymenu/page-12.png', true); ?>)"></div>
+        <div class="half-container" style="background-image:url(<?php asset_path('img/daymenu/page-11.png', true); ?>)"></div>
       </div>
     </section>
 
