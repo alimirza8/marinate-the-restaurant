@@ -1,24 +1,24 @@
 /* ------ Menu of the day ----------- */
-body {
+body.page-template-menu {
   color: #ffffff;
   background-color: #262626;
 }
 
-body::before {
+body.page-template-menu::before {
   /* never visible - this is used in jQuery to check the current MQ */
   content: 'mobile';
   display: none;
 }
 
 @media only screen and (min-width: 1170px) {
-  body::before {
+  body.page-template-menu::before {
     /* never visible - this is used in jQuery to check the current MQ */
     content: 'desktop';
   }
 }
-/* -------------------------------- 
+/* --------------------------------
 
-Main Components 
+Main Components
 
 -------------------------------- */
 @media only screen and (min-width: 1170px) {
@@ -37,16 +37,9 @@ Main Components
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  font-size: 46px;
-  font-size: 2.875rem;
+  font-size: 4rem;
   color: #fff;
   letter-spacing: normal;
-}
-@media (max-width: 767px) {
-  .menu-section h1 {
-    font-size: 32px;
-    font-size: 2rem;
-  }
 }
 .menu-section h1 span {
   display: block;
@@ -121,7 +114,7 @@ Main Components
   visibility: visible;
   height: 100vh;
   background-color: #262626;
-  background-image: url("../img/logo_2.svg");
+  background-image: url("../img/logo/white-logo-icon.png");
   background-size: 400px auto;
   background-position: center center;
   background-repeat: no-repeat;
@@ -153,18 +146,20 @@ Main Components
   }
 }
 .half-container {
-  background: #fff url(../img/pattern_menu.jpg) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background:#fffbd6;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
   color: #263b40;
   text-align: center;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
-.half-container:nth-of-type(1) {
+.half-container{
   height: 60vh;
-  background-color: #fff;
+  background-color: #fffbd6;
   background-position: center center;
   background-repeat: no-repeat;
 }
@@ -173,30 +168,6 @@ Main Components
   padding: 4em 10%;
 }
 
-.menu-section:nth-of-type(2) .half-container:first-of-type {
-  background-image: url("../img/daymenu/img-1.jpg");
-  background-size: cover;
-}
-
-.menu-section:nth-of-type(3) .half-container:first-of-type {
-  background-image: url("../img/daymenu/img-2.jpg");
-  background-size: cover;
-}
-
-.menu-section:nth-of-type(4) .half-container:first-of-type {
-  background-image: url("../img/daymenu/img-3.jpg");
-  background-size: cover;
-}
-
-.menu-section:nth-of-type(5) .half-container:first-of-type {
-  background-image: url("../img/daymenu/img-4.jpg");
-  background-size: cover;
-}
-
-.menu-section:nth-of-type(6) .half-container:first-of-type {
-  background-image: url("../img/daymenu/img-5.jpg");
-  background-size: cover;
-}
 
 @media only screen and (min-width: 1170px) {
   .half-container {
@@ -312,5 +283,55 @@ ul.vertical-nav {
 @media only screen and (min-width: 1170px) {
   .vertical-nav {
     display: block;
+  }
+}
+
+@media only screen and (max-width: 1169px)  {
+  .half-container{
+    height: 100vh;
+  }
+  .menu-section:nth-of-type(2) .half-container:first-of-type {
+    background-image: url("../img/daymenu/page-01.png");
+  }
+  .menu-section:nth-of-type(2) .half-container:nth-of-type(2) {
+    background-image: url("../img/daymenu/page-02.png");
+  }
+  .menu-section:nth-of-type(3) .half-container:first-of-type {
+    background-image: url("../img/daymenu/page-03.png");
+  }
+  .menu-section:nth-of-type(3) .half-container:nth-of-type(2) {
+    background-image: url("../img/daymenu/page-04.png");
+  }
+  .menu-section:nth-of-type(4) .half-container:first-of-type {
+    background-image: url("../img/daymenu/page-05.png");
+  }
+  .menu-section:nth-of-type(4) .half-container:nth-of-type(2) {
+    background-image: url("../img/daymenu/page-06.png");
+  }
+  .menu-section:nth-of-type(5) .half-container:first-of-type {
+    background-image: url("../img/daymenu/page-07.png");
+  }
+  .menu-section:nth-of-type(5) .half-container:nth-of-type(2) {
+    background-image: url("../img/daymenu/page-08.png");
+  }
+  .menu-section:nth-of-type(6) .half-container:first-of-type {
+    background-image: url("../img/daymenu/page-09.png");
+  }
+  .menu-section:nth-of-type(6) .half-container:nth-of-type(2) {
+    background-image: url("../img/daymenu/page-10.png");
+  }
+  .menu-section:nth-of-type(7) .half-container:first-of-type {
+    background-image: url("../img/daymenu/page-11.png");
+  }
+  .menu-section:nth-of-type(7) .half-container:nth-of-type(2) {
+    background-image: url("../img/daymenu/page-12.png");
+  }
+}
+@media only screen and (max-width: 767px)  {
+  .half-container{
+    height: 80vh;
+  }
+  .menu-section .half-container{
+    background-size: 450px;
   }
 }

@@ -4097,3 +4097,7 @@ footer .copy {
   -webkit-filter: brightness(115%);
   filter: brightness(115%);
 }
+
+.page-template-menu header, .page-template-menu footer{
+  display: none;
+}

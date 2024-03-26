@@ -145,6 +145,7 @@ function marinate_the_restaurant_scripts() {
   wp_enqueue_style( 'flex slider', get_template_directory_uri() . '/assets/css/flex_slider.css', array() );
 	wp_enqueue_style( 'wizard', get_template_directory_uri() . '/assets/css/wizard.css', array() );
 	wp_enqueue_style( 'vegas', get_template_directory_uri() . '/assets/css/vegas.min.css', array());
+	wp_enqueue_style( 'menu', get_template_directory_uri() . '/assets/css/day_menu.css', array());
 	wp_enqueue_style( 'custom', get_template_directory_uri() . '/assets/css/custom.css', array() );
 
 	wp_enqueue_script( 'common_scripts', get_template_directory_uri() . '/assets/js/common_scripts.min.js', array(), '', true );
@@ -154,6 +155,7 @@ function marinate_the_restaurant_scripts() {
 	// wp_enqueue_script( 'slider-2', get_template_directory_uri() . '/assets/js/slider_2.js', array(), '', true );
 	wp_enqueue_script( 'isotope', get_template_directory_uri() . '/assets/js/isotope.min.js', array(), '', true );
 	wp_enqueue_script( 'common_func', get_template_directory_uri() . '/assets/js/common_func.js', array(), '', true );
+	wp_enqueue_script( 'menu', get_template_directory_uri() . '/assets/js/day_menu.js', array(), '', true );
 	//index3.hmtl
   wp_enqueue_script( 'modernizr', get_template_directory_uri() . '/assets/js/modernizr.min.js', array(),'', true );
 	wp_enqueue_script( 'video-header', get_template_directory_uri() . '/assets/js/video_header.min.js', array(), '', true );
