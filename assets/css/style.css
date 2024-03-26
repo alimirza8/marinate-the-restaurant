@@ -494,7 +494,9 @@ header.header_in ul#top_menu li a {
 header a.open_close {
   position: absolute;
   left: 10px;
-  top: 2px;
+  top: 50%;
+  transform: translateY(-50%);
+  line-height: 1;
   z-index: 999;
   color: #fff;
   font-size: 32px;
@@ -2660,7 +2662,7 @@ ul#banners_grid li a.img_container .short_info p {
 }
 .item-img img.small{
   max-width: 415px;
-  /* width: 100; */
+  width: 100%;
 }
 .item-img .content {
   position: absolute;
