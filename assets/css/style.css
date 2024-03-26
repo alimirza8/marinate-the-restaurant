@@ -4099,5 +4099,5 @@ footer .copy {
 }
 
 .page-template-menu header, .page-template-menu footer{
-  display: none;
+  display: none !important;
 }
