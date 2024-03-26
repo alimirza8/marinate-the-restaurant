@@ -93,7 +93,7 @@ get_header();
 
 		<ul id="banners_grid" class="clearfix">
 			<li>
-				<a href="#marinate-menu" class="img_container">
+				<a href="<?php echo esc_url(home_url('/menu/')); ?>" class="img_container">
 					<img src="<?php asset_path('img/menu.png', true);?>" data-src="<?php asset_path('img/menu.png', true);?>" alt="" class="lazy">
 					<div class="short_info opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.5)">
 						<h3>Our Menu</h3>
