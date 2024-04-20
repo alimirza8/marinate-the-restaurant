@@ -94,7 +94,7 @@ get_header();
 		<ul id="banners_grid" class="clearfix">
 			<li>
 				<a href="<?php echo esc_url(home_url('/menu/')); ?>" class="img_container">
-					<img src="<?php asset_path('img/menu.png', true);?>" data-src="<?php asset_path('img/menu.png', true);?>" alt="" class="lazy">
+					<img src="<?php asset_path('img/menu-home.jpeg', true);?>" data-src="<?php asset_path('img/menu-home.jpeg', true);?>" alt="" class="lazy">
 					<div class="short_info opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.5)">
 						<h3>Our Menu</h3>
 						<p>View Our Specialites</p>
@@ -103,7 +103,7 @@ get_header();
 			</li>
 			<li>
 				<a href="javascript:void(0)" class="img_container">
-					<img src="<?php asset_path('img/delivery.png', true);?>" data-src="<?php asset_path('img/delivery.png', true);?>" alt="" class="lazy">
+					<img src="<?php asset_path('img/delivery.jpeg', true);?>" data-src="<?php asset_path('img/delivery.jpeg', true);?>" alt="" class="lazy">
 					<div class="short_info opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.5)">
 						<h3>Delivery</h3>
 						<p>Home delivery or take away food</p>
@@ -157,9 +157,9 @@ get_header();
             <div class="col-md-4 col-xl-4" data-cue="slideInUp">
                 <div class="item menu_item_grid">
                     <div class="item-img" data-cue="slideInUp">
-                        <img src="<?php asset_path('img/menu_items/large/italian.jpeg', true);?>" alt="">
+                        <img src="<?php asset_path('img/menu_items/large/italian.webp', true);?>" alt="">
                         <div class="content">
-                            <a href="<?php asset_path('img/menu_items/large/italian.jpeg', true);?>" title="Italian" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+                            <a href="<?php asset_path('img/menu_items/large/italian.webp', true);?>" title="Italian" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
                         </div>
                     </div>
                     <h3>Italian</h3>
@@ -174,9 +174,9 @@ get_header();
             <div class="col-md-4 col-xl-4" data-cue="slideInUp">
                 <div class="item menu_item_grid">
                     <div class="item-img" data-cue="slideInUp">
-                        <img src="<?php asset_path('img/menu_items/large/pakistani-cusine.jpeg', true);?>" alt="">
+                        <img src="<?php asset_path('img/menu_items/large/mutton-karahi.webp', true);?>" alt="">
                         <div class="content">
-                            <a href="<?php asset_path('img/menu_items/large/pakistani-cusine.jpeg', true);?>" title="Pakistani Cusine" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+                            <a href="<?php asset_path('img/menu_items/large/mutton-karahi.webp', true);?>" title="Pakistani Cusine" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
                         </div>
                     </div>
                     <h3>Pakistani Cusine</h3>
@@ -198,9 +198,9 @@ get_header();
             <div class="col-md-4 col-xl-4" data-cue="slideInUp">
                 <div class="item menu_item_grid">
                     <div class="item-img" data-cue="slideInUp">
-                        <img src="<?php asset_path('img/menu_items/large/burgers.jpeg', true);?>" alt="">
+                        <img src="<?php asset_path('img/menu_items/large/burger.webp', true);?>" alt="">
                         <div class="content">
-                            <a href="<?php asset_path('img/menu_items/large/burgers.jpeg', true);?>" title="Burgers" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+                            <a href="<?php asset_path('img/menu_items/large/burger.webp', true);?>" title="Burgers" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
                         </div>
                     </div>
                     <h3>Burgers</h3>
@@ -222,9 +222,9 @@ get_header();
             <div class="col-md-4 col-xl-4" data-cue="slideInUp">
                 <div class="item menu_item_grid">
                     <div class="item-img" data-cue="slideInUp">
-                        <img src="<?php asset_path('img/menu_items/large/salads.jpeg', true);?>" alt="">
+                        <img src="<?php asset_path('img/menu_items/large/salad.webp', true);?>" alt="">
                         <div class="content">
-                            <a href="<?php asset_path('img/menu_items/large/salads.jpeg', true);?>" title="Salads" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+                            <a href="<?php asset_path('img/menu_items/large/salad.webp', true);?>" title="Salads" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
                         </div>
                     </div>
                     <h3>Salads</h3>
@@ -234,9 +234,9 @@ get_header();
             <div class="col-md-4 col-xl-4" data-cue="slideInUp">
                 <div class="item menu_item_grid">
                     <div class="item-img" data-cue="slideInUp">
-                        <img src="<?php asset_path('img/menu_items/large/juices.jpeg', true);?>" alt="">
+                        <img src="<?php asset_path('img/menu_items/large/juice.webp', true);?>" alt="">
                         <div class="content">
-                            <a href="<?php asset_path('img/menu_items/large/juices.jpeg', true);?>" title="Juices" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+                            <a href="<?php asset_path('img/menu_items/large/juice.webp', true);?>" title="Juices" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
                         </div>
                     </div>
                     <h3>Juices</h3>
@@ -246,9 +246,9 @@ get_header();
             <div class="col-md-4 col-xl-4" data-cue="slideInUp">
                 <div class="item menu_item_grid">
                     <div class="item-img" data-cue="slideInUp">
-                        <img src="<?php asset_path('img/menu_items/large/deserts.jpeg', true);?>" alt="">
+                        <img src="<?php asset_path('img/menu_items/large/deserts.webp', true);?>" alt="">
                         <div class="content">
-                            <a href="<?php asset_path('img/menu_items/large/deserts.jpeg', true);?>" title="Deserts" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+                            <a href="<?php asset_path('img/menu_items/large/deserts.webp', true);?>" title="Deserts" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
                         </div>
                     </div>
                     <h3>Deserts</h3>
