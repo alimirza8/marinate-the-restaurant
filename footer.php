@@ -37,14 +37,14 @@
         <div class="footer_wp">
           <i class="icon_pin_alt"></i>
           <h3>Address</h3>
-          <p>Chenab School Road, Servis Industries, <br>Gujrat - Pakistan</p>
+          <a href="https://maps.app.goo.gl/Emv2u1YZGGDjgUXCA" target="_blank">VIALE GUIDO fASSI 29 41012 <br>Carpi, Emilia-Romagna - Italy</a>
         </div>
       </div>
       <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
         <div class="footer_wp">
           <i class="icon_tag_alt"></i>
           <h3>Reservations</h3>
-          <p><a href="tel:+92533724692">+92 53 3724692</a><br><a href="mailto:reservations@marinatetherestaurant.com">reservations@marinatetherestaurant.com</a></p>
+          <p><a href="tel:+39 371 673 2900">+39 371 673 2900</a><br><a href="mailto:reservations@marinatetherestaurant.com">reservations@marinatetherestaurant.com</a></p>
         </div>
       </div>
       <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
@@ -52,7 +52,7 @@
           <i class="icon_clock_alt"></i>
           <h3>Opening Hours</h3>
           <ul>
-            <li>Mon - Sat: 11am - 11:30pm</li>
+            <li>Mon - Sun: 11:00am - 11:00pm</li>
           </ul>
         </div>
       </div>
@@ -78,7 +78,7 @@
       <div class="col-sm-7">
         <div class="follow_us">
           <ul>
-            <li><a href="https://www.facebook.com/marinatetherestaurant/" target="_blank"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?php asset_path( 'img/facebook_icon.svg', true ); ?>" alt="" class="lazy"></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=61558608574584" target="_blank"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?php asset_path( 'img/facebook_icon.svg', true ); ?>" alt="" class="lazy"></a></li>
             <li><a href="https://www.instagram.com/marinate.the.restaurant/" target="_blank"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?php asset_path( 'img/instagram_icon.svg', true ); ?>" alt="" class="lazy"></a></li>
             <!-- <li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?php asset_path( 'img/twitter_icon.svg', true ); ?>" alt="" class="lazy"></a></li>
             <li><a href="#0"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="<?php asset_path( 'img/youtube_icon.svg', true ); ?>" alt="" class="lazy"></a></li> -->

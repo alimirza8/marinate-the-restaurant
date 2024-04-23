@@ -343,16 +343,24 @@ get_header();
                           International
                       </a>
                   </h5>
-              </div>
+                </div>
                 <div id="collapse-B" class="collapse" role="tabpanel" aria-labelledby="heading-B">
                   <div class="card-body">
                       <div class="row magnific-gallery add_top_30">
                         <div class="col-lg-12">
                             <div class="menu_item">
                                 <div class="menu_title">
-                                    <h3>Milan, Italy</h3>
+                                    <h3>Carpi, Italy</h3>
                                 </div>
-                                <p>Coming Soon</p>
+                                <p>VIALE GUIDO fASSI 29 41012 Carpi, Emilia-Romagna</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="menu_item">
+                                <div class="menu_title">
+                                    <h3>Cuneo, Italy</h3>
+                                </div>
+                                <p>VIA XXVIII APRILE, 23 12100 Cuneo, Piedmont</p>
                             </div>
                         </div>
                         <div class="col-lg-12">

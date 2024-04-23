@@ -2764,7 +2764,10 @@ ul#banners_grid li a.img_container .short_info p {
   color: #444;
 }
 .box_contacts a:hover {
-  color: #111;
+  color: #f80000;
+}
+.box_contacts .address{
+  margin-bottom: 20px;
 }
 .box_contacts small {
   display: block;
