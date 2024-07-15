@@ -358,12 +358,12 @@ get_header();
                         <div class="col-lg-12">
                             <div class="menu_item">
                                 <div class="menu_title">
-                                    <h3>Cuneo, Italy</h3>
+                                    <h3>Gallarate, Italy</h3>
                                 </div>
-                                <p>VIA XXVIII APRILE, 23 12100 Cuneo, Piedmont</p>
+                                <p>Via A. Pegoraro, 11, 21013 Gallarate VA</p>
                             </div>
                         </div>
-                        <div class="col-lg-12">
+                        <!-- <div class="col-lg-12">
                             <div class="menu_item">
                                 <div class="menu_title">
                                     <h3>Riyadh, KSA</h3>
@@ -378,7 +378,7 @@ get_header();
                                 </div>
                                 <p>Coming Soon</p>
                             </div>
-                        </div>
+                        </div> -->
                       </div>
                   <!-- /row -->
                   </div>
@@ -418,6 +418,14 @@ get_header();
 					        </div>
 					    </div>
 					</div>
+          <div class="item">
+					    <div class="item-img" data-cue="slideInUp">
+					        <img class="small" src="<?php asset_path('img/gallery/large/italy-front2.jpg', true); ?>" alt="" />
+					        <div class="content">
+					            <a href="<?php asset_path('img/gallery/large/italy-front2.jpg', true); ?>" title="Marinate" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+					        </div>
+					    </div>
+					</div>
 					<div class="item">
 					    <div class="item-img" data-cue="slideInUp">
 					        <img class="small" src="<?php asset_path('img/gallery/large/gallery_masonry_3.jpg', true); ?>" alt="" />
@@ -426,6 +434,7 @@ get_header();
 					        </div>
 					    </div>
 					</div>
+
 					<div class="item">
 					    <div class="item-img" data-cue="slideInUp">
 					        <img class="small" src="<?php asset_path('img/gallery/large/gallery_masonry_4.jpg', true); ?>" alt="" />
@@ -436,9 +445,17 @@ get_header();
 					</div>
 					<div class="item">
 					    <div class="item-img" data-cue="slideInUp">
-					        <img class="small" src="<?php asset_path('img/gallery/large/gallery_masonry_5.jpg', true); ?>" alt="" />
+					        <img class="small" src="<?php asset_path('img/gallery/large/gallery_masonry_8.jpg', true); ?>" alt="" />
 					        <div class="content">
-					            <a href="<?php asset_path('img/gallery/large/gallery_masonry_5.jpg', true); ?>" title="Marinate" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+					            <a href="<?php asset_path('img/gallery/large/gallery_masonry_8.jpg', true); ?>" title="Marinate" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+					        </div>
+					    </div>
+					</div>
+          <div class="item">
+					    <div class="item-img" data-cue="slideInUp">
+					        <img class="small" src="<?php asset_path('img/gallery/large/sweets2.jpg', true); ?>" alt="" />
+					        <div class="content">
+					            <a href="<?php asset_path('img/gallery/large/sweets2.jpg', true); ?>" title="Marinate" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
 					        </div>
 					    </div>
 					</div>
@@ -452,17 +469,17 @@ get_header();
 					</div>
 					<div class="item">
 					    <div class="item-img" data-cue="slideInUp">
-					        <img class="small" src="<?php asset_path('img/gallery/large/gallery_masonry_7.jpg', true); ?>" alt="" />
+					        <img class="small" src="<?php asset_path('img/gallery/large/gallery_masonry_5.jpg', true); ?>" alt="" />
 					        <div class="content">
-					            <a href="<?php asset_path('img/gallery/large/gallery_masonry_7.jpg', true); ?>" title="Marinate" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+					            <a href="<?php asset_path('img/gallery/large/gallery_masonry_5.jpg', true); ?>" title="Marinate" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
 					        </div>
 					    </div>
 					</div>
 					<div class="item">
 					    <div class="item-img" data-cue="slideInUp">
-					        <img class="small" src="<?php asset_path('img/gallery/large/gallery_masonry_8.jpg', true); ?>" alt="" />
+					        <img class="small" src="<?php asset_path('img/gallery/large/gallery_masonry_7.jpg', true); ?>" alt="" />
 					        <div class="content">
-					            <a href="<?php asset_path('img/gallery/large/gallery_masonry_8.jpg', true); ?>" title="Marinate" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+					            <a href="<?php asset_path('img/gallery/large/gallery_masonry_7.jpg', true); ?>" title="Marinate" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
 					        </div>
 					    </div>
 					</div>
@@ -482,6 +499,15 @@ get_header();
 					        </div>
 					    </div>
 					</div>
+          <div class="item">
+					    <div class="item-img" data-cue="slideInUp">
+					        <img class="small" src="<?php asset_path('img/gallery/large/sitting3.jpg', true); ?>" alt="" />
+					        <div class="content">
+					            <a href="<?php asset_path('img/gallery/large/sitting3.jpg', true); ?>" title="Marinate" data-effect="mfp-zoom-in"><i class="arrow_expand"></i></a>
+					        </div>
+					    </div>
+					</div>
+
 				</div>
 			</div>
 	    </div>
